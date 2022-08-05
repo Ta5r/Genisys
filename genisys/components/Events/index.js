@@ -1,0 +1,29 @@
+import React from "react";
+import { Box,SimpleGrid } from "@chakra-ui/react";
+import Card from "../Card";
+import events from "./events";
+
+const Events = () => {
+  return (
+    <Box px={10} mx={6}>
+      <SimpleGrid columns={[1,1, 1, 2, 3]} spacingX={"1rem"} px={"13vw"}>
+      {events.map(res => (
+            <Card
+              image={res['image']}
+              type={res['type']}
+              title={res['title']}
+              desc={res['desc']}
+              auth_name={res['auth_name']}
+              auth_img={res['auth_img']}
+              link={res['link']}
+              tags={res['tags']}
+              linkGH={res['linkGH']}
+              status={res['status']}
+              date={res['date']}
+            />))}
+      </SimpleGrid>
+    </Box>
+  );
+};
+
+export default Events;
