@@ -1,42 +1,97 @@
 import React from "react";
-import { Box, Text, Heading, Flex, Spacer, Button } from "@chakra-ui/react";
+import Link from "next/link";
+import {
+  Box,
+  Text,
+  Flex,
+  Spacer,
+  Button,
+  ChakraProvider,
+  theme,
+} from "@chakra-ui/react";
 const Navbar = () => {
   return (
-    <Box
-      position={"fixed"}
-      w={"100vw"}
-      backdropBlur={"5px"}
-      backdropFilter={"5px"}
-      css={{ backdropFilter: "blur(6px)" }}
-      zIndex={"10"}
-    >
-      <Flex align="space-between">
-        <Heading p={"4"} letterSpacing={8.0}>
-          GENESYS
-        </Heading>
-        <Spacer />
-        <Text p={"4"} pt={"8"} letterSpacing={8.0}>
-          HOME
-        </Text>
+    <ChakraProvider theme={theme}>
+      <Box
+        position={"fixed"}
+        w={"100vw"}
+        css={{ backdropFilter: "blur(8px)" }}
+        zIndex={"1"}
+        borderBottom={"1px solid white"}
+      >
+        <Flex align="space-between">
+          <Text
+            fontSize={"28px"}
+            fontWeight={"800"}
+            p={"4"}
+            letterSpacing={8.0}
+          >
+            GENESIS
+          </Text>
+          <Spacer />
+          <Link href="/">
+            <Text
+              p={"4"}
+              pt={"8"}
+              letterSpacing={8.0}
+              _hover={{
+                background: "white",
+                color: "teal.500",
+              }}
+            >
+              HOME
+            </Text>
+          </Link>
 
-        <Text p={"4"} pt={"8"} letterSpacing={8.0}>
-          EVENTS
-        </Text>
+          <Link href="/events">
+            <Text
+              p={"4"}
+              pt={"8"}
+              letterSpacing={8.0}
+              _hover={{
+                background: "white",
+                color: "teal.500",
+              }}
+            >
+              EVENTS
+            </Text>
+          </Link>
 
-        <Text p={"4"} pt={"8"} letterSpacing={8.0}>
-          SPONSORS
-        </Text>
+          <Link href="/sponsors">
+            <Text
+              p={"4"}
+              pt={"8"}
+              letterSpacing={8.0}
+              _hover={{
+                background: "white",
+                color: "teal.500",
+              }}
+            >
+              SPONSORS
+            </Text>
+          </Link>
 
-        <Text p={"4"} pt={"8"} letterSpacing={6.0}>
-          OUR TEAM
-        </Text>
-        <Spacer />
+          <Link href="/team">
+            <Text
+              p={"4"}
+              pt={"8"}
+              letterSpacing={8.0}
+              _hover={{
+                background: "white",
+                color: "teal.500",
+              }}
+            >
+              OUR TEAM
+            </Text>
+          </Link>
+          <Spacer />
 
-        <Button mr={"10"} p={"4"} letterSpacing={4.0}>
-          REGISTER
-        </Button>
-      </Flex>
-    </Box>
+          <Button mt={"5"} mr={"10"} p={"4"} letterSpacing={4.0}>
+            REGISTER
+          </Button>
+        </Flex>
+      </Box>
+    </ChakraProvider>
   );
 };
 

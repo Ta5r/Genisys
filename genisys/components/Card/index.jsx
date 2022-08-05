@@ -44,7 +44,7 @@ export default function Card(props) {
             mb={6}
             pos={"relative"}
             bgImage={image}
-            borderRadius="30px"
+            // borderRadius="30px"
             bgSize={"cover"}
             boxSize="350px"
             backgroundPosition="center"
@@ -66,11 +66,14 @@ export default function Card(props) {
           </Text>
           <hr />
           <Flex>
-            <Text fontSize={"3xl"} fontWeight={"bold"} fontFamily={"body"}>
-              {t1}
+            <Text fontSize={"2xl"} pr={"0.1rem"} letterSpacing={2.0}>
+              {/* {t1}
             </Text>
-            <Text mt={"2.5"} fontSize={"xl"} fontFamily={"body"}>
-              {title.substring(1)}
+            <Text 
+            mt={"1"} 
+            fontSize={"xl"} letterSpacing={2.0}>
+              {title.substring(1)} */}
+              {title}
             </Text>
           </Flex>
         </Stack>

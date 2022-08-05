@@ -1,33 +1,45 @@
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Events from '../components/Events'
-import Navbar from '../components/Navbar'
-import { ColorModeScript } from '@chakra-ui/react'
+import Events from "../components/Events";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import {
   ChakraProvider,
   Text,
+  Code,
   Stack,
   Flex,
-  Heading,
   theme,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
+import FadeInUp from "../components/Anim/FadeInUp";
 
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
-      <Navbar/>
-      {/* <Image layout={"fill"} src={"https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/> */}
-    <Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }}>
-      <Flex p={8} flex={1} align={'center'} justify={'center'}>
-        <Stack spacing={6} w={'full'} maxW={'lg'}>
-          <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-          </Heading>
+      <Navbar />
+      <FadeInUp>
+        <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
+          <Flex p={8} flex={1} align={"center"} justify={"center"}>
+            <Stack spacing={6} w={"full"} align={"center"}>
+              <Text
+                fontSize={{ base: "3xl", md: "5xl", lg: "70px" }}
+                letterSpacing={15.0}
+              >
+                GENESIS
+              </Text>
+              <Text
+                fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
+                letterSpacing={5.5}
+              >
+                IEEE MUJ brings to you the largest Tech Fest of Manipal
+                University Jaipur <Code fontSize={{ base: "lg", md: "xl", lg: "2xl" }}>GENESIS 2022</Code>
+              </Text>
+            </Stack>
+          </Flex>
         </Stack>
-      </Flex>     
-    </Stack>
-    <Stack>
-      <Events/>
-    </Stack>
-  </ChakraProvider>
-  )
+        <Stack>
+          <Events />
+        </Stack>
+      </FadeInUp>
+      <Footer />
+    </ChakraProvider>
+  );
 }

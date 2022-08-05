@@ -1,33 +1,6 @@
 const events = [
   {
     image:
-      'https://images.prismic.io/ieeemuj/a91145ab-813b-4889-939c-a69f24aa4570_crypto_crunch.png?auto=compress,format',
-    type: 'Event',
-    title: 'Ballistic',
-    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
-    auth_name: 'IEEE SB MUJ',
-    status: 'ongoing',
-    date: 'Feb 08, 2021',
-  },{
-    image:
-      'https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format',
-    type: 'Seminar',
-    title: 'Fostering The Future',
-    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
-    auth_name: 'IEEE WIE MUJ',
-    status: 'ongoing',
-    date: 'Feb 08, 2021',
-  },{
-    image:
-      'https://images.prismic.io/ieeemuj/4fb36762-95a2-46d0-9991-ef21f9c97215_techgyaan.png?auto=compress,format',
-    type: 'Workshop',
-    title: 'Ready, Set, VFX',
-    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
-    auth_name: 'IEEE SB MUJ',
-    status: 'upcoming',
-    date: 'Feb 08, 2021',
-  },{
-    image:
       'https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format',
     type: 'Hackathon',
     title: 'Krypt',
@@ -52,6 +25,33 @@ const events = [
     desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
     auth_name: 'IEEE SB MUJ',
     status: 'completed',
+    date: 'Feb 08, 2021',
+  },{
+    image:
+      'https://images.prismic.io/ieeemuj/a91145ab-813b-4889-939c-a69f24aa4570_crypto_crunch.png?auto=compress,format',
+    type: 'Event',
+    title: 'Ballistic',
+    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
+    auth_name: 'IEEE SB MUJ',
+    status: 'ongoing',
+    date: 'Feb 08, 2021',
+  },{
+    image:
+      'https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format',
+    type: 'Seminar',
+    title: 'Fostering The Future',
+    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
+    auth_name: 'IEEE WIE MUJ',
+    status: 'ongoing',
+    date: 'Feb 08, 2021',
+  },{
+    image:
+      'https://images.prismic.io/ieeemuj/4fb36762-95a2-46d0-9991-ef21f9c97215_techgyaan.png?auto=compress,format',
+    type: 'Workshop',
+    title: 'Ready, Set, VFX',
+    desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
+    auth_name: 'IEEE SB MUJ',
+    status: 'upcoming',
     date: 'Feb 08, 2021',
   },
   ];
