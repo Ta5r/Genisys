@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Box>
         <video
-          class="videolc"
+          className="videolc"
           id="bg-video"
           autoPlay={true}
           muted={true}

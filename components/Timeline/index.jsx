@@ -5,9 +5,9 @@ import events from "./events.js";
 const Timeline = () => {
   return (
     <Box pt={"2vh"}>
-      <div class="timeline__container">
+      <div className="timeline__container">
         {events.map((item, index) => (
-          <div className="item__container">
+          <div className="item__container" key={index}>
             <div className="image__carbon">
               <img alt={item.title} src={item.img} />
             </div>
@@ -17,7 +17,7 @@ const Timeline = () => {
                   index === 0 && `start`
                 }`}
               ></span>
-              <span class="circle"></span>
+              <span className="circle"></span>
             </div>
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
