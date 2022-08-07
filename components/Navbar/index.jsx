@@ -26,6 +26,7 @@ const Navbar = () => {
             p={"4"}
             letterSpacing={8.0}
             color={"white"}
+            bgColor={"gray.900"}
           >
             GENESIS
           </Text>

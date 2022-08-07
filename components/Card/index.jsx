@@ -30,7 +30,7 @@ export default function Card(props) {
         minW={"300px"}
         minH={"550px"}
         w={"full"}
-        borderRadius={"25px"}
+        borderRadius={"10px"}
         bg={useColorModeValue("white", "gray.900")}
         boxShadow={"2xl"}
         p={6}
@@ -44,7 +44,6 @@ export default function Card(props) {
             mb={6}
             pos={"relative"}
             bgImage={image}
-            // borderRadius="30px"
             bgSize={"cover"}
             boxSize="350px"
             backgroundPosition="center"
@@ -67,12 +66,6 @@ export default function Card(props) {
           <hr />
           <Flex>
             <Text fontSize={"2xl"} pr={"0.1rem"} letterSpacing={2.0}>
-              {/* {t1}
-            </Text>
-            <Text 
-            mt={"1"} 
-            fontSize={"xl"} letterSpacing={2.0}>
-              {title.substring(1)} */}
               {title}
             </Text>
           </Flex>
