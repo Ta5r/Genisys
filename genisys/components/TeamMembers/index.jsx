@@ -1,5 +1,6 @@
 import React from "react";
 import { SimpleGrid } from "@chakra-ui/react";
+import { AspectRatio } from "@chakra-ui/react";
 import {
   Flex,
   Box,
@@ -156,7 +157,6 @@ const TeamMembers = () => {
           ) : null
         )}
       </SimpleGrid>
-     
     </Box>
   );
 };

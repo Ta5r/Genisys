@@ -17,7 +17,7 @@ const Navbar = () => {
         w={"100vw"}
         css={{ backdropFilter: "blur(8px)" }}
         zIndex={"1"}
-        borderBottom={"1px solid white"}
+        pb={5}
       >
         <Flex align="space-between">
           <Text
@@ -25,6 +25,7 @@ const Navbar = () => {
             fontWeight={"800"}
             p={"4"}
             letterSpacing={8.0}
+            color={"white"}
           >
             GENESIS
           </Text>
@@ -34,6 +35,8 @@ const Navbar = () => {
               p={"4"}
               pt={"8"}
               letterSpacing={8.0}
+              backgroundColor={"#fff"}
+              px={"3rem"}
               _hover={{
                 background: "white",
                 color: "teal.500",
@@ -47,6 +50,8 @@ const Navbar = () => {
             <Text
               p={"4"}
               pt={"8"}
+              backgroundColor={"#fff"}
+              px={"3rem"}
               letterSpacing={8.0}
               _hover={{
                 background: "white",
@@ -61,6 +66,8 @@ const Navbar = () => {
             <Text
               p={"4"}
               pt={"8"}
+              backgroundColor={"#fff"}
+              px={"3rem"}
               letterSpacing={8.0}
               _hover={{
                 background: "white",
@@ -75,6 +82,8 @@ const Navbar = () => {
             <Text
               p={"4"}
               pt={"8"}
+              backgroundColor={"#fff"}
+              px={"3rem"}
               letterSpacing={8.0}
               _hover={{
                 background: "white",

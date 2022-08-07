@@ -9,31 +9,40 @@ import {
   Text,
   Stack,
 } from "@chakra-ui/react";
+import FadeInUp from '../../components/Anim/FadeInUp'
 
 const Team = () => {
   return (
     <ChakraProvider theme={theme}>
       <Navbar />
-      <Stack minH={"35vh"} direction={{ base: "column", md: "row" }}>
+      <FadeInUp>
+
+      <Stack minH={"65vh"} direction={{ base: "column", md: "row" }}>
         <Flex p={8} flex={1}>
           <Stack spacing={6} w={"full"} align={"center"}>
             <Text
+              mt={"20vh"}
               fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
               letterSpacing={15.0}
-            >
+              >
               <br/>TEAM GENESIS
             </Text>
             <Text
               fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
               letterSpacing={5.5}
-            >
+              >
               Such an event could have never been possible without a
               team like TEAM GENESIS
             </Text>
           </Stack>
         </Flex>
       </Stack>
+      </FadeInUp>
+
+      <FadeInUp>
+        
       <TeamMembers/>
+              </FadeInUp>
       <Footer />
     </ChakraProvider>
   );
