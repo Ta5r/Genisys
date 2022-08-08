@@ -8,11 +8,24 @@ import {
   Stack,
   Flex,
   theme,
+  Button,
   Box,
+  useDisclosure,
 } from "@chakra-ui/react";
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+} from "@chakra-ui/react";
+import Stat from "../components/Stat";
 import FadeInUp from "../components/Anim/FadeInUp";
 
 export default function Home() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <ChakraProvider theme={theme}>
       <Navbar />
@@ -31,6 +44,46 @@ export default function Home() {
           />
         </video>
       </Box>
+      <Box className="modalbox">
+        <Button
+          className="modalbtn"
+          bottom={"10vh"}
+          left={["27%", "37%", "45%"]}
+          zIndex={"5"}
+          position={"fixed"}
+          onClick={onOpen}
+        >
+          Watch Promo Video
+        </Button>
+
+        <Modal className="modalbox" isOpen={isOpen} onClose={onClose}>
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader>Genesis Trailer</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <video
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
+                controls={true}
+              >
+                <source
+                  src="https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </ModalBody>
+
+            <ModalFooter>
+              <Button colorScheme="blue" mr={3} onClick={onClose}>
+                Close
+              </Button>
+              <Button variant="ghost">Register NOW</Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
+      </Box>
       <FadeInUp>
         <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
           <Flex p={8} flex={1} align={"center"} justify={"center"}>
@@ -40,6 +93,7 @@ export default function Home() {
                 letterSpacing={15.0}
                 backgroundColor={"#fff"}
                 px={"3rem"}
+                color={"black"}
               >
                 GENESIS
               </Text>
@@ -47,6 +101,7 @@ export default function Home() {
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
+                color={"black"}
                 px={"3rem"}
               >
                 IEEE MUJ brings to you the largest Tech Fest of Manipal
@@ -58,6 +113,7 @@ export default function Home() {
             </Stack>
           </Flex>
         </Stack>
+        <Stat />
         <Stack>
           <Events />
         </Stack>

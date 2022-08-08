@@ -1,15 +1,110 @@
-import React from "react";
-import Link from "next/link";
 import {
   Box,
-  Text,
   Flex,
+  HStack,
+  IconButton,
+  useDisclosure,
+  Stack,
   Spacer,
-  Button,
+  Text,
+  Icon,
+  Collapse,
   ChakraProvider,
   theme,
 } from "@chakra-ui/react";
+import { MdMenu, MdClose } from "react-icons/md";
+import NextLink from "next/link";
+
+import NavLink from "./NavLink";
+
+const NavLinks = ({ closeMenu }) => (
+  <>
+    <NavLink to="/" onClick={closeMenu}>
+      <Text
+        p={"4"}
+        pt={"8"}
+        letterSpacing={8.0}
+        backgroundColor={"#fff"}
+        px={"3rem"}
+        color={"black"}
+        _hover={{
+          background: "white",
+          color: "teal.500",
+        }}
+      >
+        HOME
+      </Text>
+    </NavLink>
+    <NavLink to="/events" onClick={closeMenu}>
+      <Text
+        p={"4"}
+        pt={"8"}
+        backgroundColor={"#fff"}
+        px={"3rem"}
+        letterSpacing={8.0}
+        color={"black"}
+        _hover={{
+          background: "white",
+          color: "teal.500",
+        }}
+      >
+        EVENTS
+      </Text>
+    </NavLink>
+    <NavLink to="/" onClick={closeMenu}>
+      <Text
+        p={"4"}
+        pt={"8"}
+        backgroundColor={"#fff"}
+        px={"3rem"}
+        letterSpacing={8.0}
+        color={"black"}
+        _hover={{
+          background: "white",
+          color: "teal.500",
+        }}
+      >
+        SPONSORS
+      </Text>
+    </NavLink>
+    <NavLink to="/team" onClick={closeMenu}>
+      <Text
+        p={"4"}
+        pt={"8"}
+        backgroundColor={"#fff"}
+        px={"3rem"}
+        letterSpacing={8.0}
+        color={"black"}
+        _hover={{
+          background: "white",
+          color: "teal.500",
+        }}
+      >
+        OUR TEAM
+      </Text>
+    </NavLink>
+    <NavLink to="/" onClick={closeMenu}>
+      <Text
+        p={"4"}
+        pt={"8"}
+        backgroundColor={"#fff"}
+        px={"3rem"}
+        letterSpacing={8.0}
+        color={"black"}
+        _hover={{
+          background: "white",
+          color: "teal.500",
+        }}
+      >
+        REGISTER
+      </Text>
+    </NavLink>
+  </>
+);
+
 const Navbar = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <ChakraProvider theme={theme}>
       <Box
@@ -17,89 +112,90 @@ const Navbar = () => {
         w={"100vw"}
         css={{ backdropFilter: "blur(8px)" }}
         zIndex={"1"}
-        pb={5}
+        // pb={5}
       >
-        <Flex align="space-between">
-          <Text
-            fontSize={"28px"}
-            fontWeight={"800"}
-            p={"4"}
-            letterSpacing={8.0}
-            color={"white"}
+        <Flex
+          h={16}
+          align="space-between"
+          // bgColor={"gray.900"}
+          // with bgColor NO glass-morphism effect
+        >
+          <NextLink href="/" passHref>
+            <Text
+              fontSize={"28px"}
+              fontWeight={"800"}
+              p={"4"}
+              letterSpacing={8.0}
+              color={"white"}
+              bgColor={"gray.900"}
+              size={"md"}
+              cursor={"pointer"}
+            >
+              GENESIS
+            </Text>
+          </NextLink>
+          <Spacer />
+          <HStack as="nav" spacing={4} display={{ base: "none", xl: "flex" }}>
+            <NavLinks />
+          </HStack>
+          <Spacer />
+          <IconButton
             bgColor={"gray.900"}
-          >
-            GENESIS
-          </Text>
-          <Spacer />
-          <Link href="/">
-            <Text
-              p={"4"}
-              pt={"8"}
-              letterSpacing={8.0}
-              backgroundColor={"#fff"}
-              px={"3rem"}
-              _hover={{
-                background: "white",
-                color: "teal.500",
-              }}
-            >
-              HOME
-            </Text>
-          </Link>
-
-          <Link href="/events">
-            <Text
-              p={"4"}
-              pt={"8"}
-              backgroundColor={"#fff"}
-              px={"3rem"}
-              letterSpacing={8.0}
-              _hover={{
-                background: "white",
-                color: "teal.500",
-              }}
-            >
-              EVENTS
-            </Text>
-          </Link>
-
-          <Link href="/sponsors">
-            <Text
-              p={"4"}
-              pt={"8"}
-              backgroundColor={"#fff"}
-              px={"3rem"}
-              letterSpacing={8.0}
-              _hover={{
-                background: "white",
-                color: "teal.500",
-              }}
-            >
-              SPONSORS
-            </Text>
-          </Link>
-
-          <Link href="/team">
-            <Text
-              p={"4"}
-              pt={"8"}
-              backgroundColor={"#fff"}
-              px={"3rem"}
-              letterSpacing={8.0}
-              _hover={{
-                background: "white",
-                color: "teal.500",
-              }}
-            >
-              OUR TEAM
-            </Text>
-          </Link>
-          <Spacer />
-
-          <Button mt={"5"} mr={"10"} p={"4"} letterSpacing={4.0}>
-            REGISTER
-          </Button>
+            variant="ghost"
+            color="white"
+            borderRadius="0"
+            size="lg"
+            icon={
+              isOpen ? (
+                <Icon
+                  as={MdClose}
+                  fontSize={"4xl"}
+                  color={"white"}
+                />
+              ) : (
+                <Icon
+                  as={MdMenu}
+                  fontSize={"4xl"}
+                  color={"white"}
+                />
+              )
+            }
+            aria-label="Open Menu"
+            display={{ xl: "none" }}
+            onClick={isOpen ? onClose : onOpen}
+            _hover={{
+              border: "none",
+              textDecoration: "none",
+              borderRadius: "50",
+            }}
+            _active={{
+              bgColor: "transparent",
+            }}
+            _focus={{
+              shadow: "none",
+              border: "none",
+            }}
+          />
         </Flex>
+        <Collapse in={isOpen} animateOpacity>
+          <Box
+            p={4}
+            bgColor="brand.700"
+            width="100%"
+            height="calc(100vh - 40px)"
+            display={{ xl: "none" }}
+          >
+            <Stack
+              as="nav"
+              spacing={10}
+              alignItems="center"
+              justify="center"
+              height="85%"
+            >
+              <NavLinks closeMenu={onClose} />
+            </Stack>
+          </Box>
+        </Collapse>
       </Box>
     </ChakraProvider>
   );
