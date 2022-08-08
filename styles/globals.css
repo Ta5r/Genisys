@@ -24,10 +24,7 @@ a {
     background: black;
   }
 }
-
 /* ___________________________________ */
-
-
 #bg-video {
   position: fixed;
   overflow: hidden;
@@ -35,10 +32,22 @@ a {
   width: 100%;
   object-fit: "cover";
   background-size: auto;
-  background: url("https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4");
+  background-color: rgb(65, 65, 65);
 }
 .videolc {
   display: block;
-  background: url("https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4");
-background-size: cover;
+  background-color: rgb(65, 65, 65);
+  background-size: cover;
+}
+.modalbox {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .videolc {
+    display: none;
+  }
+  .modalbox {
+    display: block;
+  }
 }
