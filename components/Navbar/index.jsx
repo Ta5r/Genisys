@@ -53,7 +53,7 @@ const NavLinks = ({ closeMenu }) => (
         EVENTS
       </Text>
     </NavLink>
-    <NavLink to="/" onClick={closeMenu}>
+    <NavLink to="/sponsors" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
