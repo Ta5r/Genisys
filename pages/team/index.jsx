@@ -9,11 +9,16 @@ import {
   Text,
   Stack,
 } from "@chakra-ui/react";
+import Head from 'next/head';
 import FadeInUp from "../../components/Anim/FadeInUp";
 
 const Team = () => {
   return (
     <ChakraProvider theme={theme}>
+       <Head>
+        <title>Team - GENESIS</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <FadeInUp>
         <Stack minH={"65vh"} direction={{ base: "column", md: "row" }}>

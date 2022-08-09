@@ -21,6 +21,7 @@ const NavLinks = ({ closeMenu }) => (
   <>
     <NavLink to="/" onClick={closeMenu}>
       <Text
+        fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
         letterSpacing={8.0}
@@ -37,6 +38,7 @@ const NavLinks = ({ closeMenu }) => (
     </NavLink>
     <NavLink to="/events" onClick={closeMenu}>
       <Text
+        fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
         backgroundColor={"#fff"}
@@ -53,6 +55,7 @@ const NavLinks = ({ closeMenu }) => (
     </NavLink>
     <NavLink to="/" onClick={closeMenu}>
       <Text
+        fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
         backgroundColor={"#fff"}
@@ -69,6 +72,7 @@ const NavLinks = ({ closeMenu }) => (
     </NavLink>
     <NavLink to="/team" onClick={closeMenu}>
       <Text
+        fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
         backgroundColor={"#fff"}
@@ -112,7 +116,7 @@ const Navbar = () => {
         w={"100vw"}
         css={{ backdropFilter: "blur(8px)" }}
         zIndex={"1"}
-        // pb={5}
+        pb={5}
       >
         <Flex
           h={16}
@@ -122,9 +126,11 @@ const Navbar = () => {
         >
           <NextLink href="/" passHref>
             <Text
-              fontSize={"28px"}
+              // fontSize={"28px"}
+              fontSize={["lg", "xl", "2xl", "3xl", "4xl"]}
               fontWeight={"800"}
               p={"4"}
+              pb={"6vh"}
               letterSpacing={8.0}
               color={"white"}
               bgColor={"gray.900"}
@@ -139,6 +145,7 @@ const Navbar = () => {
             <NavLinks />
           </HStack>
           <Spacer />
+          <Spacer />
           <IconButton
             bgColor={"gray.900"}
             variant="ghost"
@@ -147,17 +154,9 @@ const Navbar = () => {
             size="lg"
             icon={
               isOpen ? (
-                <Icon
-                  as={MdClose}
-                  fontSize={"4xl"}
-                  color={"white"}
-                />
+                <Icon as={MdClose} fontSize={"4xl"} color={"white"} />
               ) : (
-                <Icon
-                  as={MdMenu}
-                  fontSize={"4xl"}
-                  color={"white"}
-                />
+                <Icon as={MdMenu} fontSize={"4xl"} color={"white"} />
               )
             }
             aria-label="Open Menu"
