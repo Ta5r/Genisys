@@ -1,54 +1,57 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import TeamMembers from "../../components/TeamMembers";
-import {
-  ChakraProvider,
-  theme,
-  Flex,
-  Text,
-  Stack,
-} from "@chakra-ui/react";
-import Head from 'next/head';
 import FadeInUp from "../../components/Anim/FadeInUp";
+import Timeline from "../../components/Timeline";
+import Head from "next/head";
+import {
+  Box,
+  Flex,
+  Stack,
+  Text,
+  ChakraProvider,
+  Button,
+  theme,
+} from "@chakra-ui/react";
 
-const Team = () => {
+const Events = () => {
   return (
     <ChakraProvider theme={theme}>
        <Head>
-        <title>Team - GENESIS</title>
+        <title>GENESIS - Sponsors</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
       <FadeInUp>
-        <Stack minH={"65vh"} direction={{ base: "column", md: "row" }}>
+        <Stack
+          minH={"65vh"}
+          w={"100vw"}
+          bgColor={""}
+          direction={{ base: "column", md: "row" }}
+        >
           <Flex p={8} flex={1}>
-            <Stack spacing={6} w={"full"} align={"center"}>
+            <Stack spacing={6} w={"full"} h={"88vh"} align={"center"}>
               <Text
                 mt={"25vh"}
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={15.0}
               >
-                TEAM GENESIS
+                SPONSORS @ GENESIS
               </Text>
               <Text
+                pt={"5rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={5.5}
+                letterSpacing={5.0}
               >
-                Such an event could have never been possible without a team like
-                TEAM GENESIS
+                WE ARE SO GRATEFUL FOR YOUR LOVE AND SUPPORT
               </Text>
             </Stack>
           </Flex>
         </Stack>
-      </FadeInUp>
-
-      <FadeInUp>
-        <TeamMembers />
       </FadeInUp>
       <Footer />
     </ChakraProvider>
   );
 };
 
-export default Team;
+export default Events;

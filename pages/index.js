@@ -21,6 +21,7 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
+import Head from 'next/head';
 import Stat from "../components/Stat";
 import FadeInUp from "../components/Anim/FadeInUp";
 
@@ -28,6 +29,10 @@ export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <ChakraProvider theme={theme}>
+      <Head>
+        <title>GENESIS - IEEE MUJ</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <Box>
         <video

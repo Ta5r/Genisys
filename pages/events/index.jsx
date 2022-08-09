@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import FadeInUp from "../../components/Anim/FadeInUp";
 import Timeline from "../../components/Timeline";
+import Head from "next/head";
 import {
   Box,
   Flex,
@@ -16,6 +17,10 @@ import {
 const Events = () => {
   return (
     <ChakraProvider theme={theme}>
+       <Head>
+        <title>GENESIS - Events</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <FadeInUp>
         <Stack
@@ -62,18 +67,12 @@ const Events = () => {
               </Text>
               <Text
                 fontSize={["md", "lg", "xl"]}
-                
                 ml={"15vw"}
                 mb={"4rem"}
-
-
                 p={"4"}
                 pt={"6"}
                 px={"3rem"}
                 letterSpacing={3.0}
-
-
-
               >
                 Register now at a minimum registration fee of Rs. 300 only and
                 get <br />

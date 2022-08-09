@@ -10,7 +10,7 @@ const Events = () => {
         <SimpleGrid columns={[1, 1, 1, 2, 3]} spacingX={"1rem"} px={"13vw"}>
           {events.map((res) => (
             <Card
-            key={res.key}
+              key={res.key}
               image={res["image"]}
               type={res["type"]}
               title={res["title"]}
