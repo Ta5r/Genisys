@@ -23,6 +23,7 @@ import {
 } from "@chakra-ui/react";
 import Head from 'next/head';
 import Stat from "../components/Stat";
+import Timeline from "../components/Timeline";
 import FadeInUp from "../components/Anim/FadeInUp";
 
 export default function Home() {
@@ -119,6 +120,14 @@ export default function Home() {
           </Flex>
         </Stack>
         <Stat />
+        <Box bgColor={"white"}>
+          <Text fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
+                letterSpacing={5.5}
+                backgroundColor={"#fff"}
+                color={"black"}
+                px={"3rem"}>Upcoming Events</Text>
+        <Timeline />
+        </Box>
         <Stack>
           <Events />
         </Stack>

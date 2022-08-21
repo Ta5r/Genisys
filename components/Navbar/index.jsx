@@ -84,7 +84,7 @@ const NavLinks = ({ closeMenu }) => (
           color: "teal.500",
         }}
       >
-        OUR TEAM
+        TEAM
       </Text>
     </NavLink>
     <NavLink to="/" onClick={closeMenu}>
@@ -151,6 +151,8 @@ const Navbar = () => {
             variant="ghost"
             color="white"
             borderRadius="0"
+            p={"4"}
+            pb={"6vh"}
             size="lg"
             icon={
               isOpen ? (

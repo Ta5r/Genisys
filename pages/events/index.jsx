@@ -11,7 +11,10 @@ import {
   Text,
   ChakraProvider,
   Button,
+  Spacer,
   theme,
+  Wrap,
+  WrapItem,
 } from "@chakra-ui/react";
 
 const Events = () => {
@@ -25,7 +28,6 @@ const Events = () => {
       <FadeInUp>
         <Stack
           minH={"65vh"}
-          w={"100vw"}
           bgColor={""}
           direction={{ base: "column", md: "row" }}
         >
@@ -53,25 +55,24 @@ const Events = () => {
       </FadeInUp>
       <Box bgColor={"gray.100"}>
         <Stack spacingX={"5rem"}>
-          <Flex>
+          {/* <Flex> */}
+            {/* <Wrap>
+              <WrapItem> */}
             <Box>
               <Text
                 fontSize={["xl", "2xl", "4xl"]}
                 fontWeight={"bold"}
                 pt={"5rem"}
-                ml={"15vw"}
-                mb={"1rem"}
+                textAlign={"center"}
                 letterSpacing={8}
               >
                 NOT REGISTERED YET ! REGISTER NOW !
               </Text>
               <Text
-                fontSize={["md", "lg", "xl"]}
-                ml={"15vw"}
-                mb={"4rem"}
-                p={"4"}
+                fontSize={["md", "xl", "2xl"]}
+                py={"4"}
                 pt={"6"}
-                px={"3rem"}
+                textAlign={"center"}
                 letterSpacing={3.0}
               >
                 Register now at a minimum registration fee of Rs. 300 only and
@@ -79,12 +80,14 @@ const Events = () => {
                 to witness the largest techfest of Manipal University Jaipur.
               </Text>
             </Box>
+            {/* </WrapItem>
+            <WrapItem> */}
             <Button
               bgColor={"blue.600"}
               color={"white"}
               mt={"10vh"}
-              ml={"10vw"}
-              p={"10"}
+              mb={"4rem"}
+              py={"10"}
               fontSize={["xl", "2xl", "3xl"]}
               letterSpacing={4.0}
               _hover={{
@@ -93,7 +96,9 @@ const Events = () => {
             >
               REGISTER
             </Button>
-          </Flex>
+            {/* </WrapItem>
+            </Wrap> */}
+          {/* </Flex> */}
         </Stack>
       </Box>
       <Footer />
