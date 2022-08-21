@@ -35,7 +35,7 @@ const Events = () => {
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={15.0}
               >
-                SPONSORS @ GENESIS
+                REGISTER @ GENESIS
               </Text>
               <Text
                 pt={"5rem"}
@@ -44,6 +44,7 @@ const Events = () => {
               >
                 WE ARE SO GRATEFUL FOR YOUR LOVE AND SUPPORT
               </Text>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduivLMI9so-cqgAEvhJSFr7SxyAd58dJNHUmS76gILlns2Mw/viewform?embedded=true" width="640" height="947" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
             </Stack>
           </Flex>
         </Stack>

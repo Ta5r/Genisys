@@ -121,11 +121,12 @@ export default function Home() {
         </Stack>
         <Stat />
         <Box bgColor={"white"}>
-          <Text fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
+          <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
                 color={"black"}
-                px={"3rem"}>Upcoming Events</Text>
+                textAlign={"center"}
+                padding={"3rem 0 0.1rem 0"}><b>Upcoming Events</b></Text>
         <Timeline />
         </Box>
         <Stack>

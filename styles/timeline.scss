@@ -58,6 +58,15 @@ img {
 	}
 }
 
+.timeline__subtext {
+	font-size: 1.15rem;
+	font-weight: 200;
+	// color: #272727;
+	@media screen and (min-width: 300px) and (max-width: 480px) {
+		margin-bottom: 1rem;
+	}
+}
+
 .start {
 	background: linear-gradient(#000, #444) !important;
 }
