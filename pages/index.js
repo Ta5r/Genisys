@@ -24,6 +24,7 @@ import {
 import Head from 'next/head';
 import Stat from "../components/Stat";
 import Timeline from "../components/Timeline";
+import Speaker from "../components/Speaker"
 import FadeInUp from "../components/Anim/FadeInUp";
 
 export default function Home() {
@@ -131,6 +132,7 @@ export default function Home() {
         <Stack>
           <Events />
         </Stack>
+        <Speaker/>
       </FadeInUp>
       <Footer />
     </ChakraProvider>
