@@ -54,7 +54,7 @@ const Events = () => {
         <Timeline />
       </FadeInUp>
       <Box bgColor={"gray.100"}>
-        <Stack spacingX={"5rem"}>
+        <Stack spacingX={"5rem"} paddingBottom={"2.5rem"}>
           {/* <Flex> */}
             {/* <Wrap>
               <WrapItem> */}
@@ -85,14 +85,13 @@ const Events = () => {
             <Button
               bgColor={"blue.600"}
               color={"white"}
-              mt={"10vh"}
-              mb={"4rem"}
               py={"10"}
               fontSize={["xl", "2xl", "3xl"]}
               letterSpacing={4.0}
               _hover={{
                 bgColor: "blue.400",
               }}
+              style={{margin: "auto", width: "30rem"}}
             >
               REGISTER
             </Button>

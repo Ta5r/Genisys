@@ -24,6 +24,7 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
+        border={"1px solid black"}
         letterSpacing={8.0}
         backgroundColor={"#fff"}
         px={"3rem"}
@@ -41,6 +42,7 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
+        border={"1px solid black"}
         backgroundColor={"#fff"}
         px={"3rem"}
         letterSpacing={8.0}
@@ -58,6 +60,7 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
+        border={"1px solid black"}
         backgroundColor={"#fff"}
         px={"3rem"}
         letterSpacing={8.0}
@@ -75,6 +78,7 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
+        border={"1px solid black"}
         backgroundColor={"#fff"}
         px={"3rem"}
         letterSpacing={8.0}
@@ -87,10 +91,11 @@ const NavLinks = ({ closeMenu }) => (
         TEAM
       </Text>
     </NavLink>
-    <NavLink to="/" onClick={closeMenu}>
+    <NavLink to="/register" onClick={closeMenu}>
       <Text
         p={"4"}
         pt={"8"}
+        border={"1px solid black"}
         backgroundColor={"#fff"}
         px={"3rem"}
         letterSpacing={8.0}

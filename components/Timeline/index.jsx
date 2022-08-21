@@ -44,6 +44,7 @@ const Timeline = () => {
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
               <p className="timeline__subtext">{item.description}</p>
+              <hr style={{margin: "1rem"}} /><p><b>{item.date}</b></p>
             </div>
           </div>
         ))}
