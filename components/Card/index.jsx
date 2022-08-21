@@ -64,16 +64,18 @@ export default function Card(props) {
             </Badge>
           </Text>
           <hr />
-          <Flex>
-            <Text fontSize={"2xl"} pr={"0.1rem"} letterSpacing={2.0}>
+          <Box>
+          <Flex alignItems={"center"}>
+            <Text fontSize={"2xl"} pr={"0.1rem"}  minHeight={"72px"} letterSpacing={2.0}>
               {title}
             </Text>
           </Flex>
+          </Box>
         </Stack>
         <Text color={"gray.500"} px={"6"}>
           {date}
         </Text>
-        <Stack mt={4} direction={"row"} spacing={4} px={"4"}>
+        {/* <Stack mt={4} direction={"row"} spacing={4} px={"4"}>
           <Link href={linkGH}>
             <Button
               flex={1}
@@ -86,7 +88,7 @@ export default function Card(props) {
               Show More Details
             </Button>
           </Link>
-        </Stack>
+        </Stack> */}
       </Box>
     </Center>
   );

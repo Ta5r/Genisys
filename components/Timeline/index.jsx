@@ -1,6 +1,8 @@
 import React from "react";
-import { Box, useColorModeValue } from "@chakra-ui/react";
+import { Box, useColorModeValue, Image } from "@chakra-ui/react";
 import events from "./events.js";
+// import Image from "next/image";
+// import Image from "next/image";
 const confetti = {
   light: {
     primary: "4299E1", // blue.400
@@ -27,7 +29,9 @@ const Timeline = () => {
         {events.map((item, index) => (
           <div className="item__container" key={index}>
             <div className="image__carbon">
-              <img alt={item.title} src={item.img} />
+              <Image alt={item.title} src={item.img} 
+              // width={"500px"} 
+              />
             </div>
             <div className="bar__content">
               <span

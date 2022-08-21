@@ -25,7 +25,6 @@ const Events = () => {
       <FadeInUp>
         <Stack
           minH={"65vh"}
-          w={"100vw"}
           bgColor={""}
           direction={{ base: "column", md: "row" }}
         >
@@ -45,6 +44,7 @@ const Events = () => {
               >
                 WE ARE SO GRATEFUL FOR YOUR LOVE AND SUPPORT
               </Text>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduivLMI9so-cqgAEvhJSFr7SxyAd58dJNHUmS76gILlns2Mw/viewform?embedded=true" width="640" height="947" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
             </Stack>
           </Flex>
         </Stack>
