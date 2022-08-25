@@ -50,7 +50,7 @@ export default function Card(props) {
             backgroundRepeat="no-repeat"
           ></Box>
         </Center>
-        <Stack px={"6"}>
+        <Stack px={"6"} paddingBottom={"1rem"}>
           <Text
             color={"green.500"}
             textTransform={"uppercase"}
@@ -66,11 +66,12 @@ export default function Card(props) {
           <hr />
           <Box>
           <Flex alignItems={"center"}>
-            <Text fontSize={"2xl"} pr={"0.1rem"}  minHeight={"72px"} letterSpacing={2.0}>
+            <Text fontSize={"2xl"} pr={"0.1rem"} letterSpacing={2.0}>
               {title}
             </Text>
           </Flex>
           </Box>
+          <Button>Learn More</Button>
         </Stack>
         <Text color={"gray.500"} px={"6"}>
           {date}
