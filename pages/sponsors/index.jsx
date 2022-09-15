@@ -13,6 +13,7 @@ import {
   Button,
   theme,
 } from "@chakra-ui/react";
+import Sponsors from "../../components/Sponsors";
 
 const Events = () => {
   return (
@@ -29,7 +30,7 @@ const Events = () => {
           direction={{ base: "column", md: "row" }}
         >
           <Flex p={8} flex={1}>
-            <Stack spacing={6} w={"full"} h={"88vh"} align={"center"}>
+            <Stack spacing={6} w={"full"} align={"center"}>
               <Text
                 mt={"25vh"}
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
@@ -47,6 +48,7 @@ const Events = () => {
             </Stack>
           </Flex>
         </Stack>
+        <Sponsors />
       </FadeInUp>
       <Footer />
     </ChakraProvider>

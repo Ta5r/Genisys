@@ -5,7 +5,7 @@ import MotionBox from './MotionBox';
 
 const FadeInUp = ({ children }) => {
   const controls = useAnimation();
-  const [ref, inView] = useInView({ threshold: 0.1 }, 'section');
+  const [ref, inView] = useInView({ threshold: 0.01 }, 'section');
 
   useEffect(() => {
     if (inView) {
