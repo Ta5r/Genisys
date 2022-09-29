@@ -1,6 +1,6 @@
 import Events from "../components/Events";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer/index";
 import {
   ChakraProvider,
   Text,
