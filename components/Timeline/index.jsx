@@ -46,8 +46,7 @@ const Timeline = () => {
               <p className="timeline__subtext">{item.s_desc}</p><br />
               <Button width={"13rem"}>Register</Button>
               <hr style={{margin: "1rem"}} />
-              <p><b>{item.dates}</b></p>
-              <p><b>{item.time}</b></p>
+              <p><b>{item.dates} | {item.time}</b></p>
             </div>
           </div>
         ))}
