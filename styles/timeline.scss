@@ -32,6 +32,10 @@ $separator-height: 325px;
 	overflow: hidden;
 }
 
+.image__carbon > img {
+	filter: blur(50px);
+}
+
 img {
 	object-fit: cover;
 	width: 100%;

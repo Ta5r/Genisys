@@ -24,14 +24,12 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
-        border={"1px solid black"}
         letterSpacing={8.0}
-        backgroundColor={"#fff"}
+        backgroundColor={"#080c2c"}        
         px={"3rem"}
-        color={"black"}
+        color={"white"}        
         _hover={{
-          background: "white",
-          color: "teal.500",
+          color: "white",          
         }}
       >
         HOME
@@ -42,50 +40,44 @@ const NavLinks = ({ closeMenu }) => (
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
-        border={"1px solid black"}
-        backgroundColor={"#fff"}
+        backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"black"}
+        color={"#c3c7c4"}        
         _hover={{
-          background: "white",
-          color: "teal.500",
+          color: "white",          
         }}
       >
         EVENTS
       </Text>
     </NavLink>
-    <NavLink to="/sponsors" onClick={closeMenu}>
+    {/* <NavLink to="/sponsors" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
-        border={"1px solid black"}
-        backgroundColor={"#fff"}
+        backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"black"}
+        color={"#c3c7c4"}        
         _hover={{
-          background: "white",
-          color: "teal.500",
+          color: "white",          
         }}
       >
         SPONSORS
       </Text>
-    </NavLink>
+    </NavLink> */}
     <NavLink to="/team" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
         p={"4"}
         pt={"8"}
-        border={"1px solid black"}
-        backgroundColor={"#fff"}
+        backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"black"}
+        color={"#c3c7c4"}        
         _hover={{
-          background: "white",
-          color: "teal.500",
+          color: "white",          
         }}
       >
         TEAM
@@ -95,14 +87,12 @@ const NavLinks = ({ closeMenu }) => (
       <Text
         p={"4"}
         pt={"8"}
-        border={"1px solid black"}
-        backgroundColor={"#fff"}
+        backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"black"}
+        color={"#c3c7c4"}        
         _hover={{
-          background: "white",
-          color: "teal.500",
+          color: "white",          
         }}
       >
         REGISTER
@@ -119,30 +109,28 @@ const Navbar = () => {
       <Box
         position={"fixed"}
         w={"100vw"}
-        css={{ backdropFilter: "blur(8px)" }}
+        css={{ backgroundColor: "#080c2c"}}
         zIndex={"1"}
         pb={5}
       >
         <Flex
           h={16}
           align="space-between"
-          // bgColor={"gray.900"}
-          // with bgColor NO glass-morphism effect
         >
           <NextLink href="/" passHref>
             <Text
-              // fontSize={"28px"}
               fontSize={["lg", "xl", "2xl", "3xl", "4xl"]}
               fontWeight={"800"}
               p={"4"}
               pb={"6vh"}
               letterSpacing={8.0}
               color={"white"}
-              bgColor={"gray.900"}
+              bgColor={"#080c2c"}
+              // bgColor={"gray.900"}
               size={"md"}
               cursor={"pointer"}
             >
-              GENESIS
+              GENESIS 2.0
             </Text>
           </NextLink>
           <Spacer />
@@ -152,7 +140,7 @@ const Navbar = () => {
           <Spacer />
           <Spacer />
           <IconButton
-            bgColor={"gray.900"}
+            bgColor={"#080c2c"}
             variant="ghost"
             color="white"
             borderRadius="0"
@@ -170,7 +158,6 @@ const Navbar = () => {
             display={{ xl: "none" }}
             onClick={isOpen ? onClose : onOpen}
             _hover={{
-              border: "none",
               textDecoration: "none",
               borderRadius: "50",
             }}

@@ -46,7 +46,8 @@ export default function Home() {
           playsInline={true}
         >
           <source
-            src="https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4"
+          src="https://prismic-io.s3.amazonaws.com/ieeemuj/5df327d3-e65a-417d-9767-e12a70b2ef9b_genisis_vdo.mp4"
+            // src="https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4"
             type="video/mp4"
           />
         </video>
@@ -102,9 +103,9 @@ export default function Home() {
                 px={"3rem"}
                 color={"black"}
               >
-                GENESIS
+                GENESIS 2.0
               </Text>
-              <Text
+              {/* <Text
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
@@ -116,7 +117,7 @@ export default function Home() {
                 <Code fontSize={{ base: "lg", md: "xl", lg: "2xl" }}>
                   GENESIS 2022
                 </Code>
-              </Text>
+              </Text> */}
             </Stack>
           </Flex>
         </Stack>
@@ -133,7 +134,7 @@ export default function Home() {
         <Stack>
           <Events />
         </Stack>
-        <Speaker/>
+        {/* <Speaker/> */}
       </FadeInUp>
       <Footer />
     </ChakraProvider>

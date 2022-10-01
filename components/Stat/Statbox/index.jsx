@@ -36,7 +36,7 @@ const StatBox = ({ numtext, subtext, visible }) => {
     //   borderColor={"gray.700"}
       //   borderColor="gray.200"
       //   css={{ backdropFilter: "blur(8px)" }}
-      bgColor={"gray.700"}
+      bgColor={"#080c2c"}
       boxSizing="border-box"
     >
       <VStack justify="center" height="100%">

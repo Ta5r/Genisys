@@ -6,7 +6,7 @@ const events = [
     title: 'Krypt',
     desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
     auth_name: 'IEEE CS MUJ',
-    status: 'upcoming',
+    status: 'completed',
     date: 'Oct 08, 2022 - 19:00hrs',
   },{
     image:
@@ -33,7 +33,7 @@ const events = [
     title: 'Ballistic',
     desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
     auth_name: 'IEEE SB MUJ',
-    status: 'ongoing',
+    status: 'completed',
     date: 'Oct 08, 2022 - 19:00hrs',
   },{
     image:
@@ -42,7 +42,7 @@ const events = [
     title: 'Fostering The Future',
     desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
     auth_name: 'IEEE WIE MUJ',
-    status: 'ongoing',
+    status: 'completed',
     date: 'Oct 08, 2022 - 19:00hrs',
   },{
     image:
@@ -51,7 +51,7 @@ const events = [
     title: 'Ready, Set, VFX',
     desc: 'A Web3 - Blockchain based project that lets you transfer ETHereums from your wallet to a reciever.',
     auth_name: 'IEEE SB MUJ',
-    status: 'upcoming',
+    status: 'completed',
     date: 'Oct 08, 2022 - 19:00hrs',
   },
   ];

@@ -17,7 +17,7 @@ const FooterSectionSocialLink = ({
       rel="noreferrer"
     >
       <Text
-        color="black"
+        color="white"
         size="sm"
       >
         {children}

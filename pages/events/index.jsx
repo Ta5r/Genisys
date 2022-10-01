@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import Footer from "../../components/Footer/Footer/index";
 import FadeInUp from "../../components/Anim/FadeInUp";
 import Timeline from "../../components/Timeline";
 import Head from "next/head";

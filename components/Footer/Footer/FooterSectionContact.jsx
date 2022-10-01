@@ -9,14 +9,14 @@ const FooterSectionContact = ({ number, name, children }) => (
       aria-label="id"
     >
       <Text
-        color="black"
+        color="white"
         size="sm"
       >
         {children}
       </Text>
     </a>
     <Text
-      color="black"
+      color="white"
       size="sm"
     >
       {name}

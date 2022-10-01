@@ -2,7 +2,7 @@ import { Heading } from '@chakra-ui/react';
 
 const FooterSectionHeading = ({ children }) => (
   <Heading
-    color="black"
+    color="white"
     size="sm"
   >
     {children}

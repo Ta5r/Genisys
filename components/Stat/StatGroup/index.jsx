@@ -12,11 +12,11 @@ const stats = [
     statistic_subject: "Sponsors",
   },
   {
-    statistic_number: "5+",
+    statistic_number: "10+",
     statistic_subject: "Events",
   },
   {
-    statistic_number: "30000+",
+    statistic_number: "50000+",
     statistic_subject: "Prize Pool",
   },
 ];

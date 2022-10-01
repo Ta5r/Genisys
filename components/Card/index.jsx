@@ -60,7 +60,7 @@ export default function Card(props) {
             letterSpacing={1.7}
           >
             <Badge variant="outline" colorScheme={status_color}>
-              {status}-{type}
+              {status} | {type}
             </Badge>
           </Text>
           <hr />
@@ -71,7 +71,8 @@ export default function Card(props) {
             </Text>
           </Flex>
           </Box>
-          <Button>Learn More</Button>
+          {date?"":<Button>Register</Button>}
+          {date?"":<Button>Learn More</Button>}
         </Stack>
         <Text color={"gray.500"} px={"6"}>
           {date}

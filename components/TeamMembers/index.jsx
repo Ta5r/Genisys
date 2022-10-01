@@ -1,6 +1,7 @@
 import React from "react";
 import { SimpleGrid } from "@chakra-ui/react";
 import { AspectRatio } from "@chakra-ui/react";
+import FadeInUp from "../../components/Anim/FadeInUp";
 import {
   Flex,
   Box,
@@ -8,6 +9,12 @@ import {
   useColorModeValue,
   Link,
   Text,
+  VStack,
+  Avatar,
+  Heading,
+  HStack,
+  IconButton,
+
 } from "@chakra-ui/react";
 import members from "./data.js";
 
@@ -16,78 +23,129 @@ import {
   FaBehanceSquare,
   FaInstagram,
   FaGithub,
+  FaBehance
 } from "react-icons/fa";
 
 const Card = (props) => {
+  const {name, image, position, team, github, linkedIn, behance, instagram, twitter} = props;
   return (
-    <Flex p={50} w="full" alignItems="center" justifyContent="center">
-      <Box
-        bg={useColorModeValue("white", "gray.800")}
-        maxW="250"
-        borderWidth="1px"
-        rounded="lg"
-        shadow="lg"
-        position="relative"
+    <FadeInUp>
+    <VStack
+      marginY="2em"
+      justifyItems="start"
+      alignItems="center"
+    >
+      <Avatar
+        size={"2xl"}
+        src={image}
+      />
+      <Heading
+        pt="2"
+        as="h4"
+        textAlign="center"
+        size="md"
       >
-        <Image
-          src={props.image}
-          alt={`Picture of ${props.name}`}
-          roundedTop="lg"
+        {name}
+      </Heading>
+      <Text
+        fontSize="md"
+        color="#8a9494"
+        fontWeight="medium"
+        textAlign="center"
+      >
+        {position}
+      </Text>
+      <HStack
+        width="100%"
+        justify="center"
+      >
+        {linkedIn && (
+        <IconButton
+          target="_blank"
+          as={Link}
+          href={linkedIn}
+          variant="ghost"
+          aria-label={`Linkedin link of ${name}`}
+          icon={<FaLinkedin />}
+          colorScheme="linkedin"
         />
-
-        <Box p="6">
-          <Flex mt="1" justifyContent="space-between" alignContent="center">
-            <Box
-              fontSize="2xl"
-              fontWeight="semibold"
-              as="h4"
-              lineHeight="tight"
-              isTruncated
-            >
-              {props.name}
-            </Box>
-          </Flex>
-
-          <Flex justifyContent="space-between" alignContent="center">
-            <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
-              <Box as="span" color={"gray.600"} fontSize="lg">
-                {props.position}
-              </Box>
-              <Box pt={"0.5rem"} pl={"0.75rem"} fontSize={"xl"}>
-                <Flex>
-                  {props.github !== "" ? (
-                    <Link px={"2.5"}>
-                      <FaGithub />
-                    </Link>
-                  ) : null}
-                  {props.linkedin !== "" ? (
-                    <Link px={"2.5"}>
-                      <FaLinkedin />
-                    </Link>
-                  ) : null}
-                  {props.behance !== "" ? (
-                    <Link px={"2.5"}>
-                      <FaBehanceSquare />
-                    </Link>
-                  ) : null}
-                  {props.instagram !== "" ? (
-                    <Link px={"2.5"}>
-                      <FaInstagram />
-                    </Link>
-                  ) : null}
-                </Flex>
-              </Box>
-            </Box>
-          </Flex>
-        </Box>
-      </Box>
-    </Flex>
-  );
+        )}
+        {instagram && (
+        <IconButton
+          target="_blank"
+          as={Link}
+          href={instagram}
+          variant="ghost"
+          aria-label={`Instagram link of ${name}`}
+          icon={<FaInstagram />}
+          colorScheme="pink"
+        />
+        )}
+        {github && (
+        <IconButton
+          target="_blank"
+          as={Link}
+          href={github}
+          variant="ghost"
+          aria-label={`GitHub link of ${name}`}
+          icon={<FaGithub />}
+          colorScheme="facebook"
+        />
+        )}
+        {twitter && (
+        <IconButton
+          target="_blank"
+          as={Link}
+          href={twitter}
+          variant="ghost"
+          aria-label={`Twitter link of ${name}`}
+          icon={<FaBehance />}
+          colorScheme="facebook"
+        />
+        )}
+        {behance && (
+        <IconButton
+          target="_blank"
+          as={Link}
+          href={behance}
+          variant="ghost"
+          aria-label={`Behance link of ${name}`}
+          icon={<FaBehance />}
+          colorScheme="facebook"
+        />
+        )}
+      </HStack>
+    </VStack>
+  </FadeInUp>
+  )
 };
 
 const TeamMembers = () => {
   return (
     <Box>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Convener Panel
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cp" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
       <Text
         fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
         letterSpacing={5}
@@ -116,11 +174,11 @@ const TeamMembers = () => {
         letterSpacing={5}
         mx={"15vw"}
       >
-        Tech Team
+        Core Committee - Events
       </Text>
       <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
         {members.map((res) =>
-          res.team.toLowerCase() === "tech" ? (
+          res.team.toLowerCase() === "ccevents" ? (
             <Card
               name={res.name}
               image={res.image}
@@ -139,11 +197,264 @@ const TeamMembers = () => {
         letterSpacing={5}
         mx={"15vw"}
       >
-        Disciplinary Committee
+        Core Committee - Sponsorship
       </Text>
       <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
         {members.map((res) =>
-          res.team.toLowerCase() === "disciplinary" ? (
+          res.team.toLowerCase() === "ccsponsorship" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Curations
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cccurations" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Marketing
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccmarketing" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Logistics
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cclogistics" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Content
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cccontent" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Finance
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccfinance" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Hospitality
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cchospitality" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Graphic Design
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccgraphicdesign" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Web Development
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccwebdev" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Flying Squad
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccflyingsquad" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Crafts
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "cccrafts" ? (
+            <Card
+              name={res.name}
+              image={res.image}
+              position={res.position}
+              team={res.team}
+              github={res.github}
+              linkedin={res.linkedin}
+              behance={res.behance}
+              instagram={res.instagram}
+            />
+          ) : null
+        )}
+      </SimpleGrid>
+      <Text
+        fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+        letterSpacing={5}
+        mx={"15vw"}
+      >
+        Core Committee - Media
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
+        {members.map((res) =>
+          res.team.toLowerCase() === "ccmedia" ? (
             <Card
               name={res.name}
               image={res.image}

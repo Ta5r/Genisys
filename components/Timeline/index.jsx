@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, useColorModeValue, Image } from "@chakra-ui/react";
+import { Box, useColorModeValue, Image, Button } from "@chakra-ui/react";
 import events from "./events.js";
 // import Image from "next/image";
 // import Image from "next/image";
@@ -29,7 +29,7 @@ const Timeline = () => {
         {events.map((item, index) => (
           <div className="item__container" key={index}>
             <div className="image__carbon">
-              <Image alt={item.title} src={item.img} 
+              <Image alt={item.title} src={item.image} 
               // width={"500px"} 
               />
             </div>
@@ -43,8 +43,11 @@ const Timeline = () => {
             </div>
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
-              <p className="timeline__subtext">{item.description}</p>
-              <hr style={{margin: "1rem"}} /><p><b>{item.date}</b></p>
+              <p className="timeline__subtext">{item.s_desc}</p><br />
+              <Button width={"13rem"}>Register</Button>
+              <hr style={{margin: "1rem"}} />
+              <p><b>{item.dates}</b></p>
+              <p><b>{item.time}</b></p>
             </div>
           </div>
         ))}
