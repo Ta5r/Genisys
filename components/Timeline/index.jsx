@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, useColorModeValue, Image, Button } from "@chakra-ui/react";
+import { Box, useColorModeValue, Image, Button, Link } from "@chakra-ui/react";
 import events from "./events.js";
 // import Image from "next/image";
 // import Image from "next/image";
@@ -44,7 +44,7 @@ const Timeline = () => {
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
               <p className="timeline__subtext">{item.s_desc}</p><br />
-              <Button width={"13rem"}>Register</Button>
+              <Link href={`/events/${item.title}`}><Button width={"13rem"}>Register</Button></Link>
               <hr style={{margin: "1rem"}} />
               <p><b>{item.dates} | {item.time}</b></p>
             </div>

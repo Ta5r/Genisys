@@ -53,11 +53,11 @@ const Events = () => {
         </Stack>
         <Timeline />
       </FadeInUp>
-      <Box bgColor={"gray.100"}>
+      {/* <Box bgColor={"gray.100"}>
         <Stack spacingX={"5rem"} paddingBottom={"2.5rem"}>
-          {/* <Flex> */}
-            {/* <Wrap>
-              <WrapItem> */}
+          <Flex>
+            <Wrap>
+              <WrapItem>
             <Box>
               <Text
                 fontSize={["xl", "2xl", "4xl"]}
@@ -80,8 +80,8 @@ const Events = () => {
                 to witness the largest techfest of Manipal University Jaipur.
               </Text>
             </Box>
-            {/* </WrapItem>
-            <WrapItem> */}
+            </WrapItem>
+            <WrapItem>
             <Button
               bgColor={"blue.600"}
               color={"white"}
@@ -95,11 +95,11 @@ const Events = () => {
             >
               REGISTER
             </Button>
-            {/* </WrapItem>
-            </Wrap> */}
-          {/* </Flex> */}
+            </WrapItem>
+            </Wrap>
+          </Flex>
         </Stack>
-      </Box>
+      </Box> */}
       <Footer />
     </ChakraProvider>
   );

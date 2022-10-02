@@ -14,20 +14,23 @@ import {
 } from "@chakra-ui/react";
 import { MdMenu, MdClose } from "react-icons/md";
 import NextLink from "next/link";
+import NextImage from "next"
 
 import NavLink from "./NavLink";
+import navlogo from "./../../public/imgs/navlogo.jpeg";
 
 const NavLinks = ({ closeMenu }) => (
   <>
     <NavLink to="/" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
+        fontWeight={"800"}
         p={"4"}
         pt={"8"}
         letterSpacing={8.0}
         backgroundColor={"#080c2c"}        
         px={"3rem"}
-        color={"white"}        
+        color={"#c3c7c4"}        
         _hover={{
           color: "white",          
         }}
@@ -38,6 +41,7 @@ const NavLinks = ({ closeMenu }) => (
     <NavLink to="/events" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
+        fontWeight={"800"}
         p={"4"}
         pt={"8"}
         backgroundColor={"#080c2c"}        
@@ -54,6 +58,7 @@ const NavLinks = ({ closeMenu }) => (
     {/* <NavLink to="/sponsors" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
+        fontWeight={"800"}
         p={"4"}
         pt={"8"}
         backgroundColor={"#080c2c"}        
@@ -70,6 +75,7 @@ const NavLinks = ({ closeMenu }) => (
     <NavLink to="/team" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
+        fontWeight={"800"}
         p={"4"}
         pt={"8"}
         backgroundColor={"#080c2c"}        
@@ -87,6 +93,8 @@ const NavLinks = ({ closeMenu }) => (
       <Text
         p={"4"}
         pt={"8"}
+        fontSize={["md", "md", "md", "md", "md"]}
+        fontWeight={"800"}
         backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}

@@ -1,8 +1,9 @@
 const events = [
   {
     keys:"1",
+    redirect: "11",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/bf314cf8-b946-473c-95cd-2cc1477925ad_Ballistic+2.0.png?auto=compress,format",
     title: "Ballistic 2.0",
     desc: "Gaming competition between 2 teams. Games- Fifa 21 and Mortal Kombat",
     s_desc: "Gaming competition between 2 teams. Games- Fifa 21 and Mortal Kombat",
@@ -16,8 +17,9 @@ const events = [
   },
   {
     keys:"2",
+    redirect: "22",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/a43d1f95-ce1e-4f59-88ce-b87e17305804_CODE-IT-ON.png?auto=compress,format",
     title: "Code-It-ON",
     desc: "Overnight Codeathon in campus With multiple Problem Statements and the team should be able to solve all problems and run all the test cases successfully in the given Time.      There would also be interactive sessions in between to make it different and interesting.",
     s_desc:"Overnight Codeathon in campus With multiple Problem Statements and the team should be able to solve all problems",
@@ -30,8 +32,9 @@ const events = [
   },
   {
     keys:"3",
+    redirect: "33",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/717a62f9-86f5-49d7-9211-9e7f5d00eea3_Clone+the+App.png?auto=compress,format",
     title: "Clone the app",
     desc: "App Cloning competition, each team will be given an app(10 apps in total some will get the same app) and minimum functionalities (3) prior to the event. The teams have to make the app clones With the functionalities. On the day of the event the teams have to launch the app in front of a  panel of judges. The best clone fulfilling the functionalities wins.",
     s_desc:"App Cloning competition, each team will be given an app(10 apps in total some will get the same app)",
@@ -44,8 +47,9 @@ const events = [
   },
   {
     keys:"4",
+    redirect: "44",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/52a82eb6-9353-49a8-9e93-e1cdf9d5b370_Breacout.png?auto=compress,format",
     title: "Breacout 3.0",
     desc: "This is a offline treasure hunt competition based on the theme of your two most beloved shows, friends and Brooklyn nine nine. With a common theme, participants will have a chance to choose which theme to go with. The first round will be an online quiz with not just questions from the show, but also dialogues, word searches etc. The qualified will have to team up with other contestants and form teams of 4 and will contest to become the champion in the treasure hunt which will happen in the campus",
     s_desc:"This is a offline treasure hunt competition based on the theme of your two most beloved shows, friends and Brooklyn nine nine.",
@@ -58,8 +62,9 @@ const events = [
   },
   {
     keys:"5",
+    redirect: "55",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/523260dd-0b34-4e3c-be59-8ab28808e162_BlogVerse.png?auto=compress,format",
     title: "Blogverse",
     desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation. Winners will be declared considering their performance in various domains.",
     s_desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation.",
@@ -72,8 +77,9 @@ const events = [
   },
   {
     keys:"6",
+    redirect: "66",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/4a220d7f-9776-4ce5-8755-59ae0051490b_Networking+Night.png?auto=compress,format",
     title: "Network With WIE ",
     desc: "A fun filled interaction session, to break the ice with fellow female engineers. The event will span throughout the nights, with games and interaction session with seniors.",
     s_desc: "A fun filled interaction session, to break the ice with fellow female engineers.",
@@ -86,6 +92,7 @@ const events = [
   },
   {
     keys:"7",
+    redirect: "77",
     image:
       "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
     title: "Drone-acharya",
@@ -100,8 +107,9 @@ const events = [
   },
   {
     keys:"8",
+    redirect: "88",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/569c4268-813a-470d-8ffa-2de20ddb32c0_Error+Terror.png?auto=compress,format",
     title: "ErrorTerror",
     desc: "Participants will be given a set of codes and they will have to Identify the errors in the code and rectify it to successfully run the code. It is time based so the fastest to debug wins.",
     s_desc: "Participants will be given a set of codes and they will have to Identify the errors in the code and rectify it to successfully run the code. It is time based so the fastest to debug wins.",
@@ -114,6 +122,7 @@ const events = [
   },
   {
     keys:"9",
+    redirect: "99",
     image:
       "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
     title: "Tech Summit",

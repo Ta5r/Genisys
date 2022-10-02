@@ -103,7 +103,7 @@ export default function Home() {
                 px={"3rem"}
                 color={"black"}
               >
-                GENESIS 2.0
+                
               </Text>
               {/* <Text
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
@@ -129,9 +129,15 @@ export default function Home() {
                 color={"black"}
                 textAlign={"center"}
                 padding={"3rem 0 0.1rem 0"}><b>Upcoming Events</b></Text>
-        <Timeline />
+        <Timeline/>
         </Box>
         <Stack>
+        <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+                letterSpacing={5.5}
+                backgroundColor={"#fff"}
+                color={"black"}
+                textAlign={"center"}
+                padding={"3rem 0 0.1rem 0"}><b>Past IEEE Events</b></Text>
           <Events />
         </Stack>
         {/* <Speaker/> */}

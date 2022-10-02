@@ -4,11 +4,11 @@ import StatBox from "../Statbox";
 
 const stats = [
   {
-    statistic_number: "300+",
+    statistic_number: "200+",
     statistic_subject: "Participants",
   },
   {
-    statistic_number: "10+",
+    statistic_number: "5+",
     statistic_subject: "Sponsors",
   },
   {
@@ -16,7 +16,7 @@ const stats = [
     statistic_subject: "Events",
   },
   {
-    statistic_number: "50000+",
+    statistic_number: "200000+",
     statistic_subject: "Prize Pool",
   },
 ];

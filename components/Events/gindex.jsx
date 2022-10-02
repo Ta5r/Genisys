@@ -12,6 +12,7 @@ const Gevents = () => {
             <Card
               key={res.keys}
               image={res["image"]}
+              redirect={res["redirect"]}
               type={res["type"]}
               title={res["title"]}
               desc={res["s_desc"]}

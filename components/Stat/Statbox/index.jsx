@@ -31,12 +31,12 @@ const StatBox = ({ numtext, subtext, visible }) => {
       p={"5rem"}
       mt={"-2rem"}
       rounded="lg"
-      border="2px dashed"
+      border="2px solid"
       borderColor={"white"}
     //   borderColor={"gray.700"}
       //   borderColor="gray.200"
       //   css={{ backdropFilter: "blur(8px)" }}
-      bgColor={"#080c2c"}
+      style={{"background-color": "rgba(8, 12, 44, 0.25)"}}
       boxSizing="border-box"
     >
       <VStack justify="center" height="100%">

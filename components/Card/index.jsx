@@ -17,11 +17,12 @@ export default function Card(props) {
   else if (status === "completed") status_color = "red";
   else status_color = "purple";
   const title = props.title;
-  const t1 = title.substring(0, 1);
+  // const t1 = title.substring(0, 1);
   const image = props.image;
   const type = props.type;
   const linkGH = props.linkGH;
   const date = props.date;
+  const redirect = props.redirect;
   console.log(linkGH);
   return (
     <Center py={6}>
@@ -71,8 +72,8 @@ export default function Card(props) {
             </Text>
           </Flex>
           </Box>
-          {date?"":<Button>Register</Button>}
-          {date?"":<Button>Learn More</Button>}
+          {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Register</Button></Link>}
+          {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Learn More</Button></Link>}
         </Stack>
         <Text color={"gray.500"} px={"6"}>
           {date}

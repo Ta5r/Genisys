@@ -2,8 +2,8 @@
 const members = [
     {
       name: "Aarohi Manchanda",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"test",
       github:"",
       linkedin:"",
@@ -13,8 +13,8 @@ const members = [
     },
     {
       name: "Mahi Jain",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"",
       github:"",
       linkedin:"test",
@@ -24,8 +24,8 @@ const members = [
     },
     {
       name: "Mitesh Sharma",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"",
       github:"https://github.com/",
       linkedin:"",
@@ -35,8 +35,8 @@ const members = [
     },
     {
       name: "Manya Sharma",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"test",
       github:"",
       linkedin:"test",
@@ -46,8 +46,8 @@ const members = [
     },
     {
       name: "Aishwary Shree",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"test",
       github:"",
       linkedin:"test",
@@ -57,8 +57,8 @@ const members = [
     },
     {
       name: "Vaishnavi Parihar",
-      position: "Developer",
-      team: "CP",
+      position: "Convener Committee",
+      team: "ECcc",
       behance:"",
       github:"",
       linkedin:"test",

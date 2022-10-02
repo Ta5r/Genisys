@@ -10,7 +10,10 @@ import FooterSectionLink from "./FooterSectionLink";
 import FooterSectionSocialIcon from "./FooterSectionSocialIcon";
 import FooterSectionSocialLink from "./FooterSectionSocialLink";
 import NextLink from "../../NextLink";
+import genesisLogo from "../../../public/imgs/footerlogo.png";
 import ieeeLogo from "../../../public/imgs/logo.png";
+import ieeecsLogo from "../../../public/imgs/ieeecs.svg";
+import ieeewieLogo from "../../../public/imgs/ieeewie.svg";
 
 const Footer = () => (
   <>
@@ -22,8 +25,8 @@ const Footer = () => (
       backgroundPosition="center"
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
-      paddingTop="96px"
-      paddingBottom="96px"
+      paddingTop="40px"
+      paddingBottom="20px"
     >
       <FadeInUp>
         <ResponsiveContainer>
@@ -36,7 +39,13 @@ const Footer = () => (
             spacing="48px"
           >
             <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
-              <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
+              <HStack>
+                <NextImage src={genesisLogo} alt="Genesis Logo" />
+                <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
+                <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
+                <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
+              </HStack>
+
               <HStack width="100%" height="100px">
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
@@ -46,41 +55,18 @@ const Footer = () => (
                   @genesismuj
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
-                  icon={<FooterSectionSocialIcon icon={FaFacebook} />}
-                  href="https://www.instagram.com/genesismuj"
-                  underline
-                >
-                  @genesismuj
-                </FooterSectionSocialLink>
-                <FooterSectionSocialLink
-                  icon={<FooterSectionSocialIcon icon={FaLinkedin} />}
-                  href="https://www.instagram.com/genesismuj"
-                  underline
-                >
-                  @genesismuj
-                </FooterSectionSocialLink>
-              </HStack>
-              <HStack width="100%" height="10px">
-              <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/ieeemuj"
+                  href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @ieeemuj
+                  @genesismuj
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
-                  icon={<FooterSectionSocialIcon icon={FaLinkedin} />}
-                  href="https://www.linkedin.com/company/ieeesbmuj/"
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  IEEE SB MUJ
-                </FooterSectionSocialLink>
-                <FooterSectionSocialLink
-                  icon={<FooterSectionSocialIcon icon={FaFacebook} />}
-                  href="https://www.facebook.com/ieeemuj/"
-                  underline
-                >
-                  @ieeemuj
+                  @genesismuj
                 </FooterSectionSocialLink>
               </HStack>
             </VStack>
@@ -100,27 +86,14 @@ const Footer = () => (
                   ieee@muj.manipal.edu
                 </FooterSectionLink>
               </FooterSection>
-              <FooterSection>
-                <FooterSectionHeading>Address</FooterSectionHeading>
-                <Text color="white" size="sm">
-                  Manipal University Jaipur, Dehmi Kalan, Near GVK Toll Plaza,
-                  Jaipur-Ajmer Expressway, Jaipur, Rajasthan 303007
-                </Text>
-              </FooterSection>
             </VStack>
             <VStack width="100%" spacing={10}>
               <FooterSection>
                 <FooterSectionHeading>Links</FooterSectionHeading>
-                <NextLink color="white" to="/credits">
-                  Website Team
-                </NextLink>
                 <NextLink color="white" to="http://jaipur.manipal.edu/">
                   MUJ Official Website
                 </NextLink>
-                <NextLink
-                  color="white"
-                  to="http://www.ieee.org/about/index.html"
-                >
+                <NextLink color="white" to="http://www.ieeemuj.com">
                   IEEE MUJ Website
                 </NextLink>
               </FooterSection>

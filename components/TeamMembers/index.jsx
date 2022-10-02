@@ -123,7 +123,7 @@ const Card = (props) => {
 const TeamMembers = () => {
   return (
     <Box>
-      <Text
+      {/* <Text
         fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
         letterSpacing={5}
         mx={"15vw"}
@@ -145,7 +145,7 @@ const TeamMembers = () => {
             />
           ) : null
         )}
-      </SimpleGrid>
+      </SimpleGrid> */}
       <Text
         fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
         letterSpacing={5}
@@ -155,7 +155,7 @@ const TeamMembers = () => {
       </Text>
       <SimpleGrid columns={[1, 1, 2, 3, 4]} spacingX={"1rem"} px={"12vw"}>
         {members.map((res) =>
-          res.team.toLowerCase() === "ec" ? (
+          res.team.toLowerCase() === "ec" || res.team.toLowerCase() === "eccc" ? (
             <Card
               name={res.name}
               image={res.image}
