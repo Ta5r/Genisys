@@ -47,7 +47,7 @@ const Footer = () => (
               </HStack>
 
               <HStack width="100%" height="100px">
-                <FooterSectionSocialLink
+              <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
                   href="https://www.instagram.com/genesismuj"
                   underline
@@ -56,17 +56,24 @@ const Footer = () => (
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
+                  href="https://www.instagram.com/ieeemuj/"
                   underline
                 >
-                  @genesismuj
+                  @ieeemuj
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
+                  href="https://www.instagram.com/ieee_csmuj/"
                   underline
                 >
-                  @genesismuj
+                  @ieee_csmuj
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/ieee.wiemuj/"
+                  underline
+                >
+                  @ieee.wiemuj
                 </FooterSectionSocialLink>
               </HStack>
             </VStack>
@@ -102,20 +109,7 @@ const Footer = () => (
         </ResponsiveContainer>
       </FadeInUp>
     </Box>
-    <Flex
-      bgColor="black"
-      width="100%"
-      height="32px"
-      textAlign="center"
-      justifyItems="center"
-      alignItems="center"
-      color="white"
-      fontWeight="bold"
-    >
-      <Text width="100%" fontSize="sm">
-        MADE WITH ❤️ USING OPEN SOURCE
-      </Text>
-    </Flex>
+    
   </>
 );
 
