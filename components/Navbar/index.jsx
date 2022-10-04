@@ -117,7 +117,8 @@ const Navbar = () => {
       <Box
         position={"fixed"}
         w={"100vw"}
-        css={{ backgroundColor: "#080c2c"}}
+        css={{ backdropFilter: "blur(16px)"}}
+        // css={{ backgroundColor: "#080c2c"}}
         zIndex={"1"}
         pb={5}
       >

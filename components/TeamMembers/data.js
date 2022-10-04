@@ -9,7 +9,7 @@ const members = [
       linkedin:"",
       instagram:"test",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/a8ab29bc-44ef-433c-9a19-568ba74d4487_Slice+a.png?auto=compress,format",
     },
     {
       name: "Mahi Jain",
@@ -20,7 +20,7 @@ const members = [
       linkedin:"test",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/38e47866-1c20-4332-a387-649132f6701f_Slice+m+%281%29.png?auto=compress,format",
     },
     {
       name: "Mitesh Sharma",
@@ -53,7 +53,7 @@ const members = [
       linkedin:"test",
       instagram:"test",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/75bed82c-8b53-4b20-a4fa-92853856ec22_Aishwary+Shree_Chairperson.png?auto=compress,format",
     },
     {
       name: "Vaishnavi Parihar",
@@ -64,7 +64,7 @@ const members = [
       linkedin:"test",
       instagram:"test",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/76596942-6c4c-441f-aede-69b4aa446893_Vaishnavi+Parihar_Vice+Chairperson.png?auto=compress,format",
     },
     {
       name: "Vikramditya Hiran",
@@ -75,7 +75,7 @@ const members = [
       linkedin:"",
       instagram:"test",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/05dd3434-cefb-4dc3-bbe8-6f02b046f6dc_Slice+v.png?auto=compress,format",
     },
     {
       name: "Ritvik Chawla",
@@ -97,7 +97,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/fb78804e-1ae2-4d09-b562-4a3369907c28_Slice+r.png?auto=compress,format",
     },
     {
       name: "Utkarsh Rana",
@@ -108,21 +108,10 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/3d2c6ba2-8654-4427-9e9a-092a12ece8ff_Slice+u.png?auto=compress,format",
     },
     {
       name: "Prayas Godara",
-      position: "Marketing",
-      team: "EC",
-      behance:"",
-      github:"",
-      linkedin:"",
-      instagram:"",
-      image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
-    },
-    {
-      name: "Utkarsh Rana",
       position: "Marketing",
       team: "EC",
       behance:"",
@@ -141,7 +130,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/25216764-0553-4476-8b7a-dafc81665913_Tanishaa+Sinha_General+Secretary.png?auto=compress,format",
     },
     {
       name: "Archie Sharma",
@@ -152,7 +141,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/2edd9ea1-206e-4d76-8848-d61975e5a479_Archie+Sharma_Treasurer.png?auto=compress,format",
     },
     {
       name: "Hardik Agarwal",
@@ -174,7 +163,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/c82a6540-3f6a-4843-b7a9-6da75f4e4016_Slice+y.png?auto=compress,format&rect=0,0,150,150&w=96&h=96",
     },
     {
       name: "Jasjappan Singh",
@@ -185,7 +174,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/e01c8f4e-c1c1-4cd1-80f6-e368e09ce0b5_Jasjappan+Singh.png?auto=compress,format&rect=0,80,893,893&w=96&h=96",
     },
     {
       name: "Sejal Kothari",
@@ -207,7 +196,7 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/bf1ef727-14c4-4b4f-aa33-3522ee86a065_Suyash+Patel.jpg?auto=compress,format",
     },
     {
       name: "Jeevanshi Bansal",
@@ -218,22 +207,11 @@ const members = [
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
-    },
-    {
-      name: "Jasjappan Singh",
-      position: "Developer",
-      team: "EC",
-      behance:"",
-      github:"",
-      linkedin:"",
-      instagram:"",
-      image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/2dee38ff-7943-48e5-87e5-c8e0d0ce0d04_Jeevanshi+Bansal_Head+of+Operations+.png?auto=compress,format",
     },
     {
       name: "Aryan Kamnoj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -244,7 +222,7 @@ const members = [
     },
     {
       name: "Mehul Singhvi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -255,7 +233,7 @@ const members = [
     },
     {
       name: "Lokesh Kothari",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -266,7 +244,7 @@ const members = [
     },
     {
       name: "Pratyaksh Singhal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -277,18 +255,18 @@ const members = [
     },
     {
       name: "Divyansh Jain",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://images.prismic.io/ieeemuj/cedc9a12-2a3a-438b-9fdc-ee04ce365696_Mitisha+mittal_senior+promotions+coordinator+ieee+sb.jpg?auto=compress,format",
+        "https://images.prismic.io/ieeemuj/800ec67a-d131-4c39-963a-99e4f9465df6_Divyansh+Jain_JointHeadOfLogistics.jpg?auto=compress,format",
     },
     {
       name: "Jitendra Choudhary",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -299,18 +277,18 @@ const members = [
     },
     {
       name: "Divya Srivastva",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://images.prismic.io/ieeemuj/02c2a039-0b3e-4f29-a561-928ceab00599_RutujaKadam_SeniorPromotionsCoordinator.jpg?auto=compress,format",
+        "https://images.prismic.io/ieeemuj/95a9edd9-981e-415f-8d37-e1e673b5a331_Divya+Joint+Head+of+Programs.jpg?auto=compress,format",
     },
     {
       name: "Rutuja Kadam",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -321,7 +299,7 @@ const members = [
     },
     {
       name: "Pravartika Mishra",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -332,18 +310,18 @@ const members = [
     },
     {
       name: "Aastha",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/81f54ebd-c669-432c-a568-2b322221d03d_Aastha_senior+promotions+coordinate.jpg?auto=compress,format",
     },
     {
       name: "Shekhar Pilania",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -354,18 +332,18 @@ const members = [
     },
     {
       name: "Rajveer Sanghavi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/1ed64a6e-b2dc-4534-a6be-88a73290840a_Rajveer_Sanghavi_SeniorProgramsCoordinator.jpg?auto=compress,format",
     },
     {
       name: "Rishabh Bassi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -376,18 +354,18 @@ const members = [
     },
     {
       name: "Mahika Khanna",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/e04da226-b747-43aa-b9ed-9c821657bf34_Mahika+Khana.png?auto=compress,format",
     },
     {
       name: "Khushi Gupta",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -398,7 +376,7 @@ const members = [
     },
     {
       name: "Adeeb",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -409,40 +387,40 @@ const members = [
     },
     {
       name: "Anchal Tyagi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://images.prismic.io/ieeemuj/6f20e76c-4224-4a4f-92db-7b42a716449d_Aanchal+Mittal_Head+of+corporate+affairs.jpg?auto=compress,format",
+        "https://images.prismic.io/ieeemuj/adefad2f-75f2-4550-87cf-374e8e5f4d87_Anchal+Tyagi_Head+of+Programs.png?auto=compress,format",
     },
     {
       name: "Sonakshi Arora",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/4eb05e48-274e-4eec-84d6-fc38975c41c6_Sonakshi+Arora_+Head+of+Technical+Projects.HEIC+%281%29.jpg?auto=compress,format",
     },
     {
-      name: "Kshiti Malla",
-      position: "Developer",
+      name: "Kshitij Malla",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/fc070c35-054e-4792-8198-28b4386bfb46_Kshiti+Malla_Joint+Head+of+Programs.png?auto=compress,format",
     },
     {
       name: "Aman Sethi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -453,7 +431,7 @@ const members = [
     },
     {
       name: "Mohit Sinha",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCevents",
       behance:"",
       github:"",
@@ -464,7 +442,7 @@ const members = [
     },
     {
       name: "Aanchal Mittal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -475,7 +453,7 @@ const members = [
     },
     {
       name: "Anish Kothari",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -486,7 +464,7 @@ const members = [
     },
     {
       name: "Vedika Parwal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -497,7 +475,7 @@ const members = [
     },
     {
       name: "Atul Raj Sharma",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -508,7 +486,7 @@ const members = [
     },
     {
       name: "Tanash Sultania",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -519,7 +497,7 @@ const members = [
     },
     {
       name: "Vidit Parashar",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -530,7 +508,7 @@ const members = [
     },
     {
       name: "Yuvraj Vasudeva",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -541,7 +519,7 @@ const members = [
     },
     {
       name: "Arnav Rishi Raj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
@@ -552,40 +530,40 @@ const members = [
     },
     {
       name: "Vanshika Singh Andotra",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/cc19b339-2dc1-46b2-ba86-bb44bdf05fa8_Vanshika+Singh+Andotra_Head+of+Curations.png?auto=compress,format",
     },
     {
       name: "Saloni Agrawal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/fb494448-c461-45ec-9f2e-24b382a941c0_Saloni+Agrawal_Head+of+Editorial+.png?auto=compress,format",
     },
     {
       name: "Shriyanshi Srivastava",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCsponsorship",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/ef3b773e-f6c7-4b50-b57a-0853e3d442b0_Shriyanshi+Srivastava_Head+of+Corporate+Affairs+.png?auto=compress,format",
     },
     {
       name: "Aastha Gupta",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
@@ -596,18 +574,18 @@ const members = [
     },
     {
       name: "Ishaan Gulrajani",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/59562f8c-bdb3-4aa4-a8e6-2acac0f49faa_Ishaan+Gulrajani_+Senior+Corporate+Affairs+Coordinator_.png?auto=compress,format",
     },
     {
       name: "Anant Sharma",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
@@ -618,7 +596,7 @@ const members = [
     },
     {
       name: "Ridhi Makharia",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
@@ -629,7 +607,7 @@ const members = [
     },
     {
       name: "Anoushka Goyal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
@@ -640,7 +618,7 @@ const members = [
     },
     {
       name: "Drishti Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
@@ -651,29 +629,29 @@ const members = [
     },
     {
       name: "Manya Khater",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/9167f950-1b12-4714-b7e4-dff16824f3c4_Manya+Khater_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Kaushambika Chillar",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcurations",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/0edf9f5d-dfd5-4c68-973e-ca1f9b19e354_Kaushambika+Chhillar_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Yoshe Vijay",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -684,29 +662,18 @@ const members = [
     },
     {
       name: "Sriansh Raj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
-    },
-    {
-      name: "Aastha Tandon",
-      position: "Developer",
-      team: "CCmarketing",
-      behance:"",
-      github:"",
-      linkedin:"",
-      instagram:"",
-      image:
-        "https://images.prismic.io/ieeemuj/cdbd624e-ef95-4434-94e1-187a244b69ab_AasthaTandon_SeniorCoordinatorSocialMedia.jpg?auto=compress,format",
+        "https://images.prismic.io/ieeemuj/5c96bb42-fab5-47ec-9d8f-6706468145dc_Sriansh+Raj_head+of+Promotions.png?auto=compress,format",
     },
     {
       name: "Yasir Tanveer",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -717,7 +684,7 @@ const members = [
     },
     {
       name: "Aditya Pandey",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -728,7 +695,7 @@ const members = [
     },
     {
       name: "Khushal Agarwal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -739,18 +706,18 @@ const members = [
     },
     {
       name: "Samarth Bagga",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/1d1da31c-7c7a-4253-a97e-48d6ae399f97_Samarth+Bagga_senior+community+coordinator.jpeg?auto=compress,format",
     },
     {
       name: "Nayonika Sharma",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -761,18 +728,18 @@ const members = [
     },
     {
       name: "Anshi Sangani",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/ab4ac6c1-1caa-41e6-900b-2ab3da559567_ANSHI_head+of+social+media.png?auto=compress,format&rect=0,0,120,120&w=96&h=96",
     },
     {
       name: "Chahat Saluja",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -783,7 +750,7 @@ const members = [
     },
     {
       name: "Aditya Patil",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -794,7 +761,7 @@ const members = [
     },
     {
       name: "Aryaka",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
@@ -805,62 +772,62 @@ const members = [
     },
     {
       name: "Abhimanyu Bhasin",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/a77c300a-1a1c-480c-b438-c79c1fa031c7_Abhimanyu+Bhasin+_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Amisha Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/ca6a5fc5-5881-4e10-8cf1-1b9ea66e4195_Amisha+Singh_Joint+Head+of+Promotions.png?auto=compress,format",
     },
     {
       name: "Veda Rathore",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/7b85638f-d383-4230-9eda-3aed96d4f63b_Veda+Rathod_Head+of+Promotions+.png?auto=compress,format",
     },
     {
       name: "Saloni Jain",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/5f46393a-53ea-4a1e-8f3c-79dad43aad12_Saloni+Jain_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Priya Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmarketing",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/df527b6c-9633-4747-bb7a-13d9ea27a152_Priya+Singh_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Nachiketa Jha",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -871,7 +838,7 @@ const members = [
     },
     {
       name: "Pukhraj Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -882,7 +849,7 @@ const members = [
     },
     {
       name: "Piyush Bansal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -893,7 +860,7 @@ const members = [
     },
     {
       name: "Kartik Taneja",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -904,7 +871,7 @@ const members = [
     },
     {
       name: "Prakhar Goel",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -915,7 +882,7 @@ const members = [
     },
     {
       name: "Khushi Ganatra",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -926,7 +893,7 @@ const members = [
     },
     {
       name: "Maulik",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
@@ -937,29 +904,29 @@ const members = [
     },
     {
       name: "Rajveer Dhakani",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/36a88219-75d8-48c3-8fd5-d357880f3a26_Rajveer+Dhankani_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Anushka Saxena",
-      position: "Developer",
+      position: "Core Committee",
       team: "CClogistics",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/ca40e126-f285-4ab2-9354-91cd6708b7d3_Anushka+Saxena_Head+of+Logistics.png?auto=compress,format",
     },
     {
-      name: "Sonia Dighw",
-      position: "Developer",
+      name: "Sonia Dighe",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
@@ -970,7 +937,7 @@ const members = [
     },
     {
       name: "Srivaishnavi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
@@ -981,7 +948,7 @@ const members = [
     },
     {
       name: "Sanya Chaturvedi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
@@ -992,7 +959,7 @@ const members = [
     },
     {
       name: "Avantika Yadav",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
@@ -1003,7 +970,7 @@ const members = [
     },
     {
       name: "Mohd Asham",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
@@ -1014,29 +981,29 @@ const members = [
     },
     {
       name: "Aditi Chandorkar",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/634a3c3a-7a2b-454d-96cf-cb6ecd595ec7_Aditi+Chandorkar_Senior+Coordinator+.png?auto=compress,format",
     },
     {
       name: "Chestha Vasudeva",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcontent",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/00306655-2bc0-4b27-81de-e503e7c66a0c_Cheshtha+Vasudeva_Joint+Head+of+Editorial+.png?auto=compress,format",
     },
     {
       name: "Tanash Sultania",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
@@ -1047,7 +1014,7 @@ const members = [
     },
     {
       name: "Lokesh Kothari",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
@@ -1058,7 +1025,7 @@ const members = [
     },
     {
       name: "Jitendra Choudhary",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
@@ -1069,7 +1036,7 @@ const members = [
     },
     {
       name: "Dev Shalinkumar Agrawal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
@@ -1080,7 +1047,7 @@ const members = [
     },
     {
       name: "Anish Ubriani",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
@@ -1091,29 +1058,29 @@ const members = [
     },
     {
       name: "Avanya Sagar",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCfinance",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/07a55261-4a73-403a-9292-19d35d187227_Avanya+Sagar_Joint+Head+Of+Media.png?auto=compress,format",
     },
     {
       name: "Anshi Sangani",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/ab4ac6c1-1caa-41e6-900b-2ab3da559567_ANSHI_head+of+social+media.png?auto=compress,format&rect=0,0,120,120&w=96&h=96",
     },
     {
       name: "Bhavya Bhardwaj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1124,7 +1091,7 @@ const members = [
     },
     {
       name: "Avantika Yadav",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1135,7 +1102,7 @@ const members = [
     },
     {
       name: "Pravartika Mishra",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1145,19 +1112,19 @@ const members = [
         "https://images.prismic.io/ieeemuj/8a328c04-dc53-4796-8b56-d849c95e0594_Pravartika_senior+community+manager.jpg?auto=compress,format",
     },
     {
-      name: "Aastha",
-      position: "Developer",
+      name: "Aastha Gupta",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://images.prismic.io/ieeemuj/81f54ebd-c669-432c-a568-2b322221d03d_Aastha_senior+promotions+coordinate.jpg?auto=compress,format",
+        "https://images.prismic.io/ieeemuj/4298c14f-4143-4efc-9e4d-b89c4683e52c_Aastha+Gupta_joint+head+of+curations.jpg?auto=compress,format",
     },
     {
       name: "Piyush Bansal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1168,7 +1135,7 @@ const members = [
     },
     {
       name: "Aditi Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1179,7 +1146,7 @@ const members = [
     },
     {
       name: "Ayush Tripathi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1190,7 +1157,7 @@ const members = [
     },
     {
       name: "Ankit Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
@@ -1201,18 +1168,18 @@ const members = [
     },
     {
       name: "Vanisha Tyagi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CChospitality",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/d0b2e11b-2a3f-4f47-9efb-92547a675daf_VanishaTyagi_Head+Of+Social+Media.png?auto=compress,format",
     },
     {
       name: "Ishan Rai Agarwal",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1224,7 +1191,7 @@ const members = [
 
     {
       name: "Vyom",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1235,7 +1202,7 @@ const members = [
     },
     {
       name: "Mahika Khanna",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1246,7 +1213,7 @@ const members = [
     },
     {
       name: "Rishabh Bassi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1257,7 +1224,7 @@ const members = [
     },
     {
       name: "Aman Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1268,7 +1235,7 @@ const members = [
     },
     {
       name: "Saket",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
@@ -1279,18 +1246,18 @@ const members = [
     },
     {
       name: "Pragya Prasad",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCgraphicdesign",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/d9728bc5-9ede-40bf-ab26-c8e3c401ffef_Pragya+Prasad_Head+of+Graphic+Design.png?auto=compress,format",
     },
     {
       name: "Tanay Srivastava",
-      position: "Developer",
+      position: "Webmaster",
       team: "CCwebdev",
       behance:"",
       github:"",
@@ -1301,7 +1268,6 @@ const members = [
     },
     {
       name: "Somesh Kumar",
-      position: "Developer",
       team: "CCwebdev",
       behance:"",
       github:"",
@@ -1312,18 +1278,18 @@ const members = [
     },
     {
       name: "Sriansh Raj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCflyingsquad",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/5c96bb42-fab5-47ec-9d8f-6706468145dc_Sriansh+Raj_head+of+Promotions.png?auto=compress,format",
     },
     {
       name: "Yasir Tanveer",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCflyingsquad",
       behance:"",
       github:"",
@@ -1334,7 +1300,7 @@ const members = [
     },
     {
       name: "Aastha Tandon",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCflyingsquad",
       behance:"",
       github:"",
@@ -1345,7 +1311,7 @@ const members = [
     },
     {
       name: "Anant Sharma",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCflyingsquad",
       behance:"",
       github:"",
@@ -1356,7 +1322,7 @@ const members = [
     },
     {
       name: "Anjali",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcrafts",
       behance:"",
       github:"",
@@ -1367,18 +1333,18 @@ const members = [
     },
     {
       name: "Nitya Shah",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcrafts",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/240f2ff5-2c9b-4fd0-8fec-7f2865e1d837_Nitya+Shah_Senior+Coordinator.png?auto=compress,format",
     },
     {
       name: "Pukhraj Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcrafts",
       behance:"",
       github:"",
@@ -1389,7 +1355,7 @@ const members = [
     },
     {
       name: "Pravartika Mishra",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCcrafts",
       behance:"",
       github:"",
@@ -1400,7 +1366,7 @@ const members = [
     },
     {
       name: "Suvijay Mahendru",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmedia",
       behance:"",
       github:"",
@@ -1411,18 +1377,18 @@ const members = [
     },
     {
       name: "Sanskar Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmedia",
       behance:"",
       github:"",
       linkedin:"",
       instagram:"",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+        "https://images.prismic.io/ieeemuj/4ca4c7c0-5189-48e1-b0b0-9505d88581a3_Sanskar+singh_head+of+coverage.jpg?auto=compress,format",
     },
     {
       name: "Bhavya Bhardwaj",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmedia",
       behance:"",
       github:"",
@@ -1433,7 +1399,7 @@ const members = [
     },
     {
       name: "Saksham Chaturvedi",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmedia",
       behance:"",
       github:"",
@@ -1444,7 +1410,7 @@ const members = [
     },
     {
       name: "Shrrya Singh",
-      position: "Developer",
+      position: "Core Committee",
       team: "CCmedia",
       behance:"",
       github:"",
