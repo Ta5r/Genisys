@@ -13,7 +13,7 @@ const events = [
     prize: "",
     form: "",
     venue: "",
-    form: "https://forms.gle/AykRiGuPRBPYgoBb8",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSd_8Sz0OJAzEzBs596aivjtDYMzqEif-5VkZT-pxu6FulxQ6g",
   },
   {
     keys:"2",
@@ -27,7 +27,7 @@ const events = [
     time: "10:30pm to 6:00am",
     team_size: "1-3",
     prize: "Rs. 15,000",
-    form: "https://forms.gle/4bbLyux4uMno9LkX9",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSco5xZWlOGdijka0Pyeyk-7-WdN98QoITyFT-FSRuGELTTPPg",
     venue: "10 rooms around 307 AB1",
   },
   {
@@ -57,7 +57,7 @@ const events = [
     time: "",
     team_size: "4",
     prize: "",
-    form: "https://forms.gle/oRTHK7QTTxcPPJ577",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSepiVqT5wAyzWTmUioPeyLr-Indbju6i9bAzBbfxLpacVLu_A",
     venue: "",
   },
   {
@@ -72,7 +72,7 @@ const events = [
     time: "7:30pm to 10:00pm",
     team_size: "1-3",
     prize: "",
-    form: "https://forms.gle/V64R3LdPDE7EU2437",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLScnbjWe8p4pfpsXcc2RLVxESPwfgkiyqnUcGh2mfM7frEtEAA",
     venue: "Room 307 AB1",
   },
   {
@@ -87,7 +87,7 @@ const events = [
     time: "11pm to 6am",
     team_size: "2",
     prize: "",
-    form: "https://forms.gle/9SZ5cSfMG6PitPgT9",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSedm1Jz4caoSs32Jag6xelTD9f_U2MOvWIhSYG3Fz6U3Kyo2Q",
     venue: "",
   },
   {
@@ -117,7 +117,7 @@ const events = [
     time: "3pm to 5pm",
     team_size: "1",
     prize: "Rs. 10,000",
-    form: "https://forms.gle/hKLtqqDYBrppJcPt5",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdwHhnGRiwEB_ApfKHnVaAWm89SdWwE30SQMTloyanqKczQPg",
     venue: "MS Teams",
   },
   {
@@ -132,8 +132,24 @@ const events = [
     time: "4pm to 6pm",
     team_size: "",
     prize: "T shirts and Goodies for the best questions or interaction",
-    form: "https://forms.gle/Diue8sZtZNcdTEPQ6",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdaKlBniKpZjkgKlKA_AKtHmdGdqcp6YUTrN4fhca0o5Yd_CQ",
     venue: "TMA PAI AUDITORIUM",
+  },
+  ,
+  {
+    keys:"10",
+    redirect: "111",
+    image:
+      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+    title: "Tech Talk",
+    desc: "",
+    s_desc: "",
+    dates: "",
+    time: "",
+    team_size: "",
+    prize: "",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSefkBMpCSbBKhcrs50D3sBAykvoDeExNcjLmyo5QQr65QBfHg",
+    venue: "",
   },
 ];
 export default events;

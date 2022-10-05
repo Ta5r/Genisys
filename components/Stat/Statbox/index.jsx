@@ -28,9 +28,10 @@ const StatBox = ({ numtext, subtext, visible }) => {
 
   return (
     <Box
-      p={"5rem"}
+      p={"3rem"}
       mt={"-2rem"}
       rounded="lg"
+      maxWidth="20rem"
       border="2px solid"
       borderColor={"white"}
     //   borderColor={"gray.700"}
@@ -41,11 +42,11 @@ const StatBox = ({ numtext, subtext, visible }) => {
     >
       <VStack justify="center" height="100%">
         <Flex>
-          <Text fontSize="3xl" color={"#fff"}>
+          <Text fontSize="3xl" fontWeight={"850"} color={"#fff"}>
             {currency}
           </Text>
           <Heading ref={counterRef} size="xl" color={"#fff"}>
-            {currency} 0
+           {currency} 0
           </Heading>
         </Flex>
         <Heading size="md" color={"#fff"}>

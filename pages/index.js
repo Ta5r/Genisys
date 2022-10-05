@@ -128,7 +128,7 @@ export default function Home() {
                 backgroundColor={"#fff"}
                 color={"black"}
                 textAlign={"center"}
-                padding={"3rem 0 0.1rem 0"}><b>Upcoming Events</b></Text>
+                padding={"3rem 0 0.1rem 0"}>UPCOMING EVENTS</Text>
         <Timeline/>
         </Box>
         <Stack>
@@ -137,7 +137,7 @@ export default function Home() {
                 backgroundColor={"#fff"}
                 color={"black"}
                 textAlign={"center"}
-                padding={"3rem 0 0.1rem 0"}><b>Past IEEE Events</b></Text>
+                padding={"3rem 0 0.1rem 0"}>PAST IEEE EVENTS</Text>
           <Events />
         </Stack>
         {/* <Speaker/> */}

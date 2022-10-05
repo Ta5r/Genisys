@@ -29,9 +29,10 @@ const Timeline = () => {
         {events.map((item, index) => (
           <div className="item__container" key={index}>
             <div className="image__carbon">
+              <Link href={`/events/${item.title}`}>
               <Image alt={item.title} src={item.image} 
               // width={"500px"} 
-              />
+              /></Link>
             </div>
             <div className="bar__content">
               <span
@@ -44,7 +45,7 @@ const Timeline = () => {
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
               <p className="timeline__subtext">{item.s_desc}</p><br />
-              <Link href={`/events/${item.title}`}><Button width={"13rem"}>Register</Button></Link>
+              <Link href={`/events/${item.title}`}><Button backgroundColor={"#080c2c"} color={"white"} width={"13rem"}>Register</Button></Link>
               <hr style={{margin: "1rem"}} />
               <p><b>{item.dates} | {item.time}</b></p>
             </div>

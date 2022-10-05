@@ -21,7 +21,7 @@ const Team = () => {
       </Head>
       <Navbar />
       <FadeInUp>
-        <Stack minH={"65vh"} direction={{ base: "column", md: "row" }}>
+        <Stack minH={"55vh"} direction={{ base: "column", md: "row" }}>
           <Flex p={8} flex={1}>
             <Stack spacing={6} w={"full"} align={"center"}>
               <Text
@@ -33,7 +33,7 @@ const Team = () => {
               </Text>
               <Text
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={5.5}
+                letterSpacing={2.5}
               >
                 Such an event could have never been possible without a team like
                 TEAM GENESIS
@@ -42,7 +42,6 @@ const Team = () => {
           </Flex>
         </Stack>
       </FadeInUp>
-
       <FadeInUp>
         <TeamMembers />
       </FadeInUp>

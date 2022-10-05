@@ -43,6 +43,11 @@ a {
   display: none;
 }
 
+button:hover {
+  color: white !important;
+  background-color: #080c2c !important;
+}
+
 @media only screen and (max-width: 700px) {
   .videolc {
     display: none;

@@ -19,6 +19,7 @@ export default function Card(props) {
   const title = props.title;
   // const t1 = title.substring(0, 1);
   const image = props.image;
+  const time = props.time;
   const type = props.type;
   const linkGH = props.linkGH;
   const date = props.date;
@@ -61,8 +62,12 @@ export default function Card(props) {
             letterSpacing={1.7}
           >
             <Badge variant="outline" colorScheme={status_color}>
-              {status} | {type}
+              {status}
             </Badge>
+            {/* <br /><br />
+            <Badge variant="outline" colorScheme={status_color}>
+              {time}
+            </Badge> */}
           </Text>
           <hr />
           <Box>
@@ -72,8 +77,8 @@ export default function Card(props) {
             </Text>
           </Flex>
           </Box>
-          {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Register</Button></Link>}
-          {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Learn More</Button></Link>}
+          {date?"":<Link href={`/events/${title}`}><Button backgroundColor={"#080c2c"} color={"white"} width={"100%"}>Register</Button></Link>}
+          {/* {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Learn More</Button></Link>} */}
         </Stack>
         <Text color={"gray.500"} px={"6"}>
           {date}

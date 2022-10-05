@@ -15,6 +15,7 @@ import {
   theme,
   ChakraProvider,
   Button,
+  Link
 } from "@chakra-ui/react";
 
 const Details = () => {
@@ -28,14 +29,14 @@ const Details = () => {
       <Navbar />
       <FadeInUp>
         <Stack
-          minH={"45vh"}
+          minH={"30vh"}
           bgColor={""}
           direction={{ base: "column", md: "row" }}
         >
           <Flex px={8} flex={1}>
             <Stack spacing={6} w={"full"} align={"center"}>
               <Text
-                mt={"25vh"}
+                mt={"15vh"}
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={15.0}
               >

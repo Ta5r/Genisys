@@ -36,12 +36,12 @@ const Events = () => {
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={15.0}
               >
-                REGISTER @ GENESIS
+                REGISTER @ GENESIS 2.0
               </Text>
               <Text
                 pt={"5rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={5.0}
+                letterSpacing={2.0}
               >
                 WE ARE SO GRATEFUL FOR YOUR LOVE AND SUPPORT
               </Text>

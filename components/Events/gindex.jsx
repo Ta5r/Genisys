@@ -21,7 +21,8 @@ const Gevents = () => {
               link={res["link"]}
               tags={res["tags"]}
               linkGH={res["linkGH"]}
-              status={`${res["dates"]} | ${res["time"]}`}
+              status={res["dates"]}
+              time={res["time"]}
             />
           ))}
         </SimpleGrid>

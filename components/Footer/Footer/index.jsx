@@ -20,7 +20,8 @@ const Footer = () => (
     <Box
       bgColor="#080c2c"
       width="100%"
-      backgroundImage="url(/svg/footer.svg)"
+      css={{ backgroundColor: "rgb(8, 12, 44, 0.40)"}}
+      // backgroundImage="url(/svg/footer.svg)"
       backgroundAttachment="fixed"
       backgroundPosition="center"
       backgroundSize="cover"
@@ -49,25 +50,32 @@ const Footer = () => (
               <HStack width="100%" height="100px">
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
+                  href="https://www.instagram.com/genesismuj/"
                   underline
                 >
                   @genesismuj
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
+                  href="https://www.instagram.com/ieeemuj/"
                   underline
                 >
-                  @genesismuj
+                  @ieeemuj
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
+                  href="https://www.instagram.com/ieee_csmuj/"
                   underline
                 >
-                  @genesismuj
+                  @ieee_csmuj
                 </FooterSectionSocialLink>
+                {/* <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/ieee.wiemuj/"
+                  underline
+                >
+                  @ieee.wiemuj
+                </FooterSectionSocialLink> */}
               </HStack>
             </VStack>
             <VStack width="100%" spacing={10}>
@@ -90,9 +98,6 @@ const Footer = () => (
             <VStack width="100%" spacing={10}>
               <FooterSection>
                 <FooterSectionHeading>Links</FooterSectionHeading>
-                <NextLink color="white" to="http://jaipur.manipal.edu/">
-                  MUJ Official Website
-                </NextLink>
                 <NextLink color="white" to="http://www.ieeemuj.com">
                   IEEE MUJ Website
                 </NextLink>
@@ -102,20 +107,6 @@ const Footer = () => (
         </ResponsiveContainer>
       </FadeInUp>
     </Box>
-    <Flex
-      bgColor="black"
-      width="100%"
-      height="32px"
-      textAlign="center"
-      justifyItems="center"
-      alignItems="center"
-      color="white"
-      fontWeight="bold"
-    >
-      <Text width="100%" fontSize="sm">
-        MADE WITH ❤️ USING OPEN SOURCE
-      </Text>
-    </Flex>
   </>
 );
 

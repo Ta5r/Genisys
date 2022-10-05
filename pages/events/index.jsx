@@ -38,12 +38,12 @@ const Events = () => {
                 fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={15.0}
               >
-                EVENTS @ GENESIS
+                EVENTS @ GENESIS 2.0
               </Text>
               <Text
                 pt={"5rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={5.0}
+                letterSpacing={2.0}
               >
                 FASTEN YOUR SEATBELTS AND HOLD TIGHT. MAKE SURE YOU DO NOT MISS
                 ANY OF THE UPCOMING EVENTS

@@ -24,13 +24,14 @@ const NavLinks = ({ closeMenu }) => (
     <NavLink to="/" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
-        fontWeight={"800"}
+        fontWeight={"1000"}
         p={"4"}
         pt={"8"}
         letterSpacing={8.0}
-        backgroundColor={"#080c2c"}        
+        // backgroundColor={"#080c2c"}        
         px={"3rem"}
-        color={"#c3c7c4"}        
+        // color={"#c3c7c4"}
+        color={"white"}        
         _hover={{
           color: "white",          
         }}
@@ -41,13 +42,14 @@ const NavLinks = ({ closeMenu }) => (
     <NavLink to="/events" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
-        fontWeight={"800"}
+        fontWeight={"1000"}
         p={"4"}
         pt={"8"}
-        backgroundColor={"#080c2c"}        
+        // backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"#c3c7c4"}        
+        // color={"#c3c7c4"}       
+        color={"white"} 
         _hover={{
           color: "white",          
         }}
@@ -75,13 +77,14 @@ const NavLinks = ({ closeMenu }) => (
     <NavLink to="/team" onClick={closeMenu}>
       <Text
         fontSize={["md", "md", "md", "md", "md"]}
-        fontWeight={"800"}
+        fontWeight={"1000"}
         p={"4"}
         pt={"8"}
-        backgroundColor={"#080c2c"}        
+        // backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"#c3c7c4"}        
+        // color={"#c3c7c4"}     
+        color={"white"}   
         _hover={{
           color: "white",          
         }}
@@ -94,11 +97,12 @@ const NavLinks = ({ closeMenu }) => (
         p={"4"}
         pt={"8"}
         fontSize={["md", "md", "md", "md", "md"]}
-        fontWeight={"800"}
-        backgroundColor={"#080c2c"}        
+        fontWeight={"1000"}
+        // backgroundColor={"#080c2c"}        
         px={"3rem"}
         letterSpacing={8.0}
-        color={"#c3c7c4"}        
+        // color={"#c3c7c4"}     
+        color={"white"}   
         _hover={{
           color: "white",          
         }}
@@ -117,7 +121,9 @@ const Navbar = () => {
       <Box
         position={"fixed"}
         w={"100vw"}
-        css={{ backgroundColor: "#080c2c"}}
+        css={{ backgroundColor: "rgb(8, 12, 44, 0.40)"}}
+        // css={{ backdropFilter: "blur(8px)"}}
+        // css={{ backgroundColor: "#080c2c"}}
         zIndex={"1"}
         pb={5}
       >
@@ -133,7 +139,7 @@ const Navbar = () => {
               pb={"6vh"}
               letterSpacing={8.0}
               color={"white"}
-              bgColor={"#080c2c"}
+              // bgColor={"#080c2c"}
               // bgColor={"gray.900"}
               size={"md"}
               cursor={"pointer"}
@@ -148,7 +154,7 @@ const Navbar = () => {
           <Spacer />
           <Spacer />
           <IconButton
-            bgColor={"#080c2c"}
+            // bgColor={"#080c2c"}
             variant="ghost"
             color="white"
             borderRadius="0"
