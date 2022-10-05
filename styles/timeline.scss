@@ -30,6 +30,13 @@ $separator-height: 325px;
 	border-radius: 0.75rem;
 	border: 0.1rem solid #ffffff55;
 	overflow: hidden;
+	transition: transform .2s;
+}
+.image__carbon:hover {
+	border-radius: 0.35rem;
+	transform: scale(1.12);
+	box-shadow: 0px 8px 13px 0px rgba(70, 21, 231, 0.5);
+	overflow: hidden;
 }
 
 .image__carbon > img {

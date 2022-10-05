@@ -47,7 +47,6 @@ export default function Home() {
         >
           <source
           src="https://prismic-io.s3.amazonaws.com/ieeemuj/5df327d3-e65a-417d-9767-e12a70b2ef9b_genisis_vdo.mp4"
-            // src="https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4"
             type="video/mp4"
           />
         </video>
@@ -77,7 +76,7 @@ export default function Home() {
                 controls={true}
               >
                 <source
-                  src="https://video-previews.elements.envatousercontent.com/h264-video-previews/8bc2eb2a-6288-46a0-9873-b1ffeefc00dd/37359639.mp4"
+                  src="https://prismic-io.s3.amazonaws.com/ieeemuj/5df327d3-e65a-417d-9767-e12a70b2ef9b_genisis_vdo.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -95,17 +94,19 @@ export default function Home() {
       <FadeInUp>
         <Stack minH={"80vh"} direction={{ base: "column", md: "row" }}>
           <Flex p={8} flex={1} align={"center"} justify={"center"}>
-            <Stack spacing={6} w={"full"} align={"center"}>
+            <Stack spacing={6} w={"full"} align={"center"} className="textcontent">
               <Text
+              className="textcontent"
                 fontSize={{ base: "3xl", md: "5xl", lg: "70px" }}
                 letterSpacing={15.0}
                 backgroundColor={"#fff"}
                 px={"3rem"}
                 color={"black"}
               >
-                
+                Genesis 2.0
               </Text>
-              {/* <Text
+              <Text
+              className="textcontent"
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
@@ -117,28 +118,32 @@ export default function Home() {
                 <Code fontSize={{ base: "lg", md: "xl", lg: "2xl" }}>
                   GENESIS 2022
                 </Code>
-              </Text> */}
+              </Text>
             </Stack>
           </Flex>
         </Stack>
-        <Stat />
+        <Stat/>
         <Box bgColor={"white"}>
           <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
                 color={"black"}
                 textAlign={"center"}
-                padding={"3rem 0 0.1rem 0"}>UPCOMING EVENTS</Text>
+                padding={"1rem 0 0.1rem 0"}>Genesis 2.0 Events</Text>
         <Timeline/>
+        <hr/>
         </Box>
         <Stack>
-        <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                letterSpacing={5.5}
+        <Text fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+                letterSpacing={3.5}
                 backgroundColor={"#fff"}
                 color={"black"}
                 textAlign={"center"}
-                padding={"3rem 0 0.1rem 0"}>PAST IEEE EVENTS</Text>
+                mt={"-6rem"}
+                padding={"0 0 1rem 0"}>PAST IEEE EVENTS</Text>
+                <Box pt={"4rem"}>
           <Events />
+                </Box>
         </Stack>
         {/* <Speaker/> */}
       </FadeInUp>

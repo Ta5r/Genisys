@@ -22,27 +22,26 @@ const Team = () => {
       <Navbar />
       <FadeInUp>
         <Stack minH={"55vh"} direction={{ base: "column", md: "row" }}>
-          <Flex p={8} flex={1}>
+          <Flex p={5} flex={1}>
             <Stack spacing={6} w={"full"} align={"center"}>
               <Text
-                mt={"25vh"}
-                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                letterSpacing={15.0}
+                mt={"20vh"}
+                fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+                letterSpacing={13.5}
               >
-                TEAM GENESIS
+                TEAM GENESIS 2.0
               </Text>
               <Text
+              pt={"2rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={2.5}
+                letterSpacing={1.5}
               >
                 Such an event could have never been possible without a team like
-                TEAM GENESIS
+                TEAM GENESIS.
               </Text>
             </Stack>
           </Flex>
         </Stack>
-      </FadeInUp>
-      <FadeInUp>
         <TeamMembers />
       </FadeInUp>
       <Footer />

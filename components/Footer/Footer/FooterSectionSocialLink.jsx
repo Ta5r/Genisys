@@ -6,7 +6,7 @@ const FooterSectionSocialLink = ({
 }) => (
   <Box
     width="100%"
-    textAlign="center"
+    // textAlign="center"
   >
     {icon}
     <a

@@ -8,15 +8,16 @@ import {
   Spacer,
   Text,
   Icon,
+  Image,
   Collapse,
   ChakraProvider,
   theme,
 } from "@chakra-ui/react";
 import { MdMenu, MdClose } from "react-icons/md";
 import NextLink from "next/link";
-import NextImage from "next"
-
+import NextImage from "next/image"
 import NavLink from "./NavLink";
+import genesisLogo from "../../public/imgs/headerlogo20.png";
 import navlogo from "./../../public/imgs/navlogo.jpeg";
 
 const NavLinks = ({ closeMenu }) => (
@@ -125,18 +126,19 @@ const Navbar = () => {
         // css={{ backdropFilter: "blur(8px)"}}
         // css={{ backgroundColor: "#080c2c"}}
         zIndex={"1"}
-        pb={5}
+        pb={2}
       >
         <Flex
           h={16}
           align="space-between"
         >
           <NextLink href="/" passHref>
-            <Text
-              fontSize={["lg", "xl", "2xl", "3xl", "4xl"]}
-              fontWeight={"800"}
+          <Box
+          display={"flex"}
+              fontSize={["sm", "md", "lg", "xl", "2xl"]}
+              // fontWeight={"800"}
               p={"4"}
-              pb={"6vh"}
+              // pb={"6vh"}
               letterSpacing={8.0}
               color={"white"}
               // bgColor={"#080c2c"}
@@ -144,8 +146,14 @@ const Navbar = () => {
               size={"md"}
               cursor={"pointer"}
             >
-              GENESIS 2.0
-            </Text>
+            <NextImage src={genesisLogo} alt="Genesis Logo" />
+              <Text
+              fontWeight={"700"}
+        // fontSize={["md", "md", "md", "md", "md"]}
+              pl={"7px"}
+              mt={"-3px"}
+              >ENESIS 2.0</Text>
+            </Box>
           </NextLink>
           <Spacer />
           <HStack as="nav" spacing={4} display={{ base: "none", xl: "flex" }}>

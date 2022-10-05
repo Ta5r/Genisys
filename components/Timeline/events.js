@@ -3,7 +3,7 @@ const events = [
     keys:"1",
     redirect: "11",
     image:
-      "https://images.prismic.io/ieeemuj/bf314cf8-b946-473c-95cd-2cc1477925ad_Ballistic+2.0.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/5cb8ebc1-cd44-46c2-a04e-7d3c40571954_Ballistic+2.png?auto=compress,format  ",
     title: "Ballistic 2.0",
     desc: "Gaming competition between 2 teams. Games- Fifa 21 and Mortal Kombat",
     s_desc: "Gaming competition between 2 teams. Games- Fifa 21 and Mortal Kombat",
@@ -19,8 +19,8 @@ const events = [
     keys:"2",
     redirect: "22",
     image:
-      "https://images.prismic.io/ieeemuj/a43d1f95-ce1e-4f59-88ce-b87e17305804_CODE-IT-ON.png?auto=compress,format",
-    title: "Code-It-ON",
+      "https://images.prismic.io/ieeemuj/36257aab-733a-4906-bff5-895bf0fdf1b0_Codeathon.png?auto=compress,format",
+    title: "Code-a-thon",
     desc: "Overnight Codeathon in campus With multiple Problem Statements and the team should be able to solve all problems and run all the test cases successfully in the given Time.      There would also be interactive sessions in between to make it different and interesting.",
     s_desc:"Overnight Codeathon in campus With multiple Problem Statements and the team should be able to solve all problems",
     dates: "7th-8th October",
@@ -49,11 +49,11 @@ const events = [
     keys:"4",
     redirect: "44",
     image:
-      "https://images.prismic.io/ieeemuj/52a82eb6-9353-49a8-9e93-e1cdf9d5b370_Breacout.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/893ee826-2e4e-48db-b476-4e69f1ca022f_Breacout.png?auto=compress,format",
     title: "Breacout 3.0",
     desc: "This is a offline treasure hunt competition based on the theme of your two most beloved shows, friends and Brooklyn nine nine. With a common theme, participants will have a chance to choose which theme to go with. The first round will be an online quiz with not just questions from the show, but also dialogues, word searches etc. The qualified will have to team up with other contestants and form teams of 4 and will contest to become the champion in the treasure hunt which will happen in the campus",
     s_desc:"This is a offline treasure hunt competition based on the theme of your two most beloved shows, friends and Brooklyn nine nine.",
-    dates: "",
+    dates: "8th October",
     time: "",
     team_size: "4",
     prize: "",
@@ -64,7 +64,7 @@ const events = [
     keys:"5",
     redirect: "55",
     image:
-      "https://images.prismic.io/ieeemuj/523260dd-0b34-4e3c-be59-8ab28808e162_BlogVerse.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/f4197dc3-a124-4923-bc95-81789f218a1b_Blogverse.png?auto=compress,format",
     title: "Blogverse",
     desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation. Winners will be declared considering their performance in various domains.",
     s_desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation.",
@@ -79,7 +79,7 @@ const events = [
     keys:"6",
     redirect: "66",
     image:
-      "https://images.prismic.io/ieeemuj/4a220d7f-9776-4ce5-8755-59ae0051490b_Networking+Night.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/c30706a6-cc77-46fd-808a-47e4e592a613_Network+with+ieee.png?auto=compress,format",
     title: "Network With WIE ",
     desc: "A fun filled interaction session, to break the ice with fellow female engineers. The event will span throughout the nights, with games and interaction session with seniors.",
     s_desc: "A fun filled interaction session, to break the ice with fellow female engineers.",
@@ -94,8 +94,8 @@ const events = [
     keys:"7",
     redirect: "77",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
-    title: "Drone-acharya",
+      "https://images.prismic.io/ieeemuj/919d1965-f305-43db-86ea-3e075cf4a869_Arduino.png?auto=compress,format",
+    title: "Dron-acharya",
     desc: "Drone Building Workshop accompanied by drone flying.",
     s_desc: "Drone Building Workshop accompanied by drone flying.",
     dates: "9th October",
@@ -109,7 +109,7 @@ const events = [
     keys:"8",
     redirect: "88",
     image:
-      "https://images.prismic.io/ieeemuj/569c4268-813a-470d-8ffa-2de20ddb32c0_Error+Terror.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/acbb14f7-2e1a-41cf-92e6-155bd970c61e_Bug+Fixing.png?auto=compress,format",
     title: "ErrorTerror",
     desc: "Participants will be given a set of codes and they will have to Identify the errors in the code and rectify it to successfully run the code. It is time based so the fastest to debug wins.",
     s_desc: "Participants will be given a set of codes and they will have to Identify the errors in the code and rectify it to successfully run the code. It is time based so the fastest to debug wins.",
@@ -124,7 +124,7 @@ const events = [
     keys:"9",
     redirect: "99",
     image:
-      "https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/888b8f3d-1411-4b88-88f3-06ff0a80867b_Tech+Summit.png?auto=compress,format",
     title: "Tech Summit",
     desc: "YouTubers, CEO and CTO of Web3.0(Blockchain, ML, Cybersecurity and Space exploration) based companies and scientists are gonna have a discussion of how is todays technology affect the future and talk about what the future holds in their respective domains.",
     s_desc: "YouTubers, CEO and CTO of Web3.0(Blockchain, ML, Cybersecurity and Space exploration) based companies and scientists are gonna have a discussion of how is todays technology affect the future and talk about what the future holds in their respective domains.",

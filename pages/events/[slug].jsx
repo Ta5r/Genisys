@@ -37,8 +37,8 @@ const Details = () => {
             <Stack spacing={6} w={"full"} align={"center"}>
               <Text
                 mt={"15vh"}
-                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                letterSpacing={15.0}
+                fontSize={{ base: "xl", md: "2xl", lg: "4xl" }}
+                letterSpacing={12.0}
               >
                 {slug}
               </Text>

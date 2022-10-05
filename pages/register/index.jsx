@@ -25,27 +25,26 @@ const Events = () => {
       <Navbar />
       <FadeInUp>
         <Stack
-          minH={"65vh"}
+          minH={"55vh"}
           bgColor={""}
           direction={{ base: "column", md: "row" }}
         >
           <Flex p={8} flex={1}>
-            <Stack spacing={6} w={"full"} h={"60vh"} align={"center"}>
+            <Stack spacing={6} w={"full"} h={"50vh"} align={"center"}>
               <Text
-                mt={"25vh"}
-                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                letterSpacing={15.0}
+                mt={"20vh"}
+                fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+                letterSpacing={13.5}
               >
                 REGISTER @ GENESIS 2.0
               </Text>
               <Text
-                pt={"5rem"}
+                pt={"3rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
                 letterSpacing={2.0}
               >
                 WE ARE SO GRATEFUL FOR YOUR LOVE AND SUPPORT
               </Text>
-              {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduivLMI9so-cqgAEvhJSFr7SxyAd58dJNHUmS76gILlns2Mw/viewform?embedded=true" width="640" height="947" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe> */}
             </Stack>
           </Flex>
         </Stack>

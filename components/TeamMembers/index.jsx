@@ -27,7 +27,7 @@ import {
 } from "react-icons/fa";
 
 const Card = (props) => {
-  const {name, image, position, team, github, linkedIn, behance, instagram, twitter} = props;
+  const {name, image, position, team, github, linkedin, behance, instagram, twitter} = props;
   return (
     <FadeInUp>
     <VStack
@@ -59,11 +59,11 @@ const Card = (props) => {
         width="100%"
         justify="center"
       >
-        {linkedIn && (
+        {linkedin && (
         <IconButton
           target="_blank"
           as={Link}
-          href={linkedIn}
+          href={linkedin}
           variant="ghost"
           aria-label={`Linkedin link of ${name}`}
           icon={<FaLinkedin />}

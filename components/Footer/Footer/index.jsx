@@ -1,5 +1,5 @@
-import { Box, Flex, HStack, Stack, Text, VStack } from "@chakra-ui/react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Box, Flex, HStack, Stack, Text,Image, VStack } from "@chakra-ui/react";
+import { FaInstagram } from "react-icons/fa";
 import NextImage from "next/image";
 import FadeInUp from "../../Anim/FadeInUp";
 import ResponsiveContainer from "../ResponsiveContainer";
@@ -21,7 +21,6 @@ const Footer = () => (
       bgColor="#080c2c"
       width="100%"
       css={{ backgroundColor: "rgb(8, 12, 44, 0.40)"}}
-      // backgroundImage="url(/svg/footer.svg)"
       backgroundAttachment="fixed"
       backgroundPosition="center"
       backgroundSize="cover"
@@ -39,6 +38,13 @@ const Footer = () => (
             justifyItems="center"
             spacing="48px"
           >
+            
+            <VStack width="100%" spacing={10}>
+              <FooterSection>
+                <FooterSectionHeading>Get in Touch</FooterSectionHeading>
+                
+              </FooterSection>
+            </VStack>
             <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
               <HStack>
                 <NextImage src={genesisLogo} alt="Genesis Logo" />
@@ -69,13 +75,13 @@ const Footer = () => (
                 >
                   @ieee_csmuj
                 </FooterSectionSocialLink>
-                {/* <FooterSectionSocialLink
+                <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
                   href="https://www.instagram.com/ieee.wiemuj/"
                   underline
                 >
                   @ieee.wiemuj
-                </FooterSectionSocialLink> */}
+                </FooterSectionSocialLink>
               </HStack>
             </VStack>
             <VStack width="100%" spacing={10}>
@@ -95,14 +101,7 @@ const Footer = () => (
                 </FooterSectionLink>
               </FooterSection>
             </VStack>
-            <VStack width="100%" spacing={10}>
-              <FooterSection>
-                <FooterSectionHeading>Links</FooterSectionHeading>
-                <NextLink color="white" to="http://www.ieeemuj.com">
-                  IEEE MUJ Website
-                </NextLink>
-              </FooterSection>
-            </VStack>
+            
           </Stack>
         </ResponsiveContainer>
       </FadeInUp>
@@ -110,4 +109,95 @@ const Footer = () => (
   </>
 );
 
-export default Footer;
+const Footer2 = () => (
+  <>
+    <Box
+      bgColor="#080c2c"
+      width="100%"
+      css={{ backgroundColor: "rgb(8, 12, 44, 0.40)"}}
+      backgroundAttachment="fixed"
+      backgroundPosition="center"
+      backgroundSize="cover"
+      backgroundRepeat="no-repeat"
+      paddingTop="25px"
+      paddingBottom="25px"
+    >
+      <FadeInUp>
+        <ResponsiveContainer>
+          <Stack
+            direction={["column", "column", "column", "column", "row"]}
+            columns={[1, 1, 1, 1, 3]}
+            width="100%"
+            alignItems="flex-start"
+            justifyItems="center"
+            spacing="48px"
+          >
+            
+            <VStack width="100%" spacing={10} fontSize={["sm","sm","sm","sm"]}>
+              <FooterSection>
+                <FooterSectionHeading>Get in Touch</FooterSectionHeading>
+                <VStack width="100%" height="100px">
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/genesismuj/"
+                  underline
+                >
+                  @genesismuj
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/ieeemuj/"
+                  underline
+                >
+                  @ieeemuj
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/ieee_csmuj/"
+                  underline
+                >
+                  @ieee_csmuj
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/ieee.wiemuj/"
+                  underline
+                >
+                  @ieee.wiemuj
+                </FooterSectionSocialLink>
+              </VStack>
+              </FooterSection>
+            </VStack>
+            <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
+              <HStack>
+                <NextImage src={genesisLogo} alt="Genesis Logo" layout=""/>
+                <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
+                <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
+                <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
+              </HStack>
+
+              
+            </VStack>
+            <VStack width="100%" spacing={10}>
+              <FooterSection>
+                <FooterSectionHeading>Contact Us</FooterSectionHeading>
+                <FooterSectionContact
+                  number="+919999214243"
+                  name="Aarohi Manchanda"
+                >
+                  +91 99992 14243
+                </FooterSectionContact>
+                <FooterSectionContact number="+917073189955" name="Mahi Jain">
+                  +91 70731 89955
+                </FooterSectionContact>
+              </FooterSection>
+            </VStack>
+            
+          </Stack>
+        </ResponsiveContainer>
+      </FadeInUp>
+    </Box>
+  </>
+);
+
+export default Footer2;

@@ -27,23 +27,23 @@ const Events = () => {
       <Navbar />
       <FadeInUp>
         <Stack
-          minH={"65vh"}
+          minH={"55vh"}
           bgColor={""}
           direction={{ base: "column", md: "row" }}
         >
           <Flex p={8} flex={1}>
             <Stack spacing={6} w={"full"} align={"center"}>
               <Text
-                mt={"25vh"}
-                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                letterSpacing={15.0}
+                mt={"20vh"}
+                fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+                letterSpacing={13.5}
               >
                 EVENTS @ GENESIS 2.0
               </Text>
               <Text
-                pt={"5rem"}
+                pt={"3rem"}
                 fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
-                letterSpacing={2.0}
+                letterSpacing={1.5}
               >
                 FASTEN YOUR SEATBELTS AND HOLD TIGHT. MAKE SURE YOU DO NOT MISS
                 ANY OF THE UPCOMING EVENTS

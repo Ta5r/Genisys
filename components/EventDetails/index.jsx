@@ -37,8 +37,8 @@ const EventDetails = (props) => {
             /> */}
         <Image
           src={props.image}
-          width={"25rem"}
-          boxShadow={"10px 10px 25px darkblue"}
+          width={"20rem"}
+          boxShadow={"8px 8px 20px darkblue"}
         ></Image>
         <Box
           margin={"0 0 0 2.5rem"}
@@ -46,7 +46,7 @@ const EventDetails = (props) => {
           borderLeft={"2px dotted black"}
         >
           <Text
-            fontSize={["md", "xl", "2xl"]}
+            fontSize={["sm", "lg", "xl"]}
             py={"4"}
             pt={"6"}
             maxW={"800"}
@@ -57,7 +57,7 @@ const EventDetails = (props) => {
             <b>Description:</b> {props.desc}
           </Text>
           <Text
-            fontSize={["md", "xl", "2xl"]}
+            fontSize={["sm", "lg", "xl"]}
             py={"4"}
             pt={"6"}
             maxW={"800"}
@@ -77,7 +77,7 @@ const EventDetails = (props) => {
                   <b>Prize:</b> {props.prize}
         </Text> */}
           <Text
-            fontSize={["md", "xl", "2xl"]}
+           fontSize={["sm", "lg", "xl"]}
             py={"4"}
             pt={"6"}
             maxW={"800"}
@@ -99,9 +99,12 @@ const EventDetails = (props) => {
         </Box>
       </Center>
       <Box>
+      <br/>
+      <br/>
+      <hr/>
         <Center>
           <Text
-            fontSize={["xl", "3xl", "5xl"]}
+            fontSize={["md", "xl", "3xl"]}
             py={"10"}
             pt={"10"}
             maxW={"800"}
