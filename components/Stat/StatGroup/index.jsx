@@ -8,7 +8,7 @@ const stats = [
     statistic_subject: "Participants",
   },
   {
-    statistic_number: "5+",
+    statistic_number: "6+",
     statistic_subject: "Sponsors",
   },
   {
