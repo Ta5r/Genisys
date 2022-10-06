@@ -152,7 +152,7 @@ const members = [
     linkedin:"",
     instagram:"https://www.instagram.com/_hardik_5_/",
     image:
-      "https://images.prismic.io/ieeemuj/271c6083-be8c-4d1f-b1e9-bb0d5d067904_B1C32962-1700-418B-A97B-688F390BC0A5+-+Hardik+Agarwal.png?auto=compress,format&rect=0,0,96,96&w=96&h=96",
+      "https://images.prismic.io/ieeemuj/fb2534ef-9947-4ee1-9297-3f1eecb0e85c_Hardik_Agarwal_Finance.jpg?auto=compress,format",
   },
   {
     name: "Yash Panchigar",
