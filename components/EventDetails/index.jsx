@@ -35,11 +35,20 @@ const EventDetails = (props) => {
               tags={props.tags}
               linkGH={props.linkGH}
             /> */}
-        <Image
-          src={props.image}
-          width={"20rem"}
-          boxShadow={"8px 8px 20px darkblue"}
-        ></Image>
+        {props.title === "Tech Talk" ? (
+          <Image
+            filter={"blur(10px)"}
+            src={props.image}
+            width={"20rem"}
+            boxShadow={"8px 8px 20px darkblue"}
+          ></Image>
+        ) : (
+          <Image
+            src={props.image}
+            width={"20rem"}
+            boxShadow={"8px 8px 20px darkblue"}
+          ></Image>
+        )}
         <Box
           margin={"0 0 0 2.5rem"}
           padding={"0 0 0 2.5rem"}
@@ -54,7 +63,13 @@ const EventDetails = (props) => {
             letterSpacing={3.0}
             style={{ "text-align": "left" }}
           >
-            <b>Description:</b> {props.desc}
+            {props.desc === "" ? (
+              ""
+            ) : (
+              <>
+                <b>Description:</b> {props.desc}
+              </>
+            )}
           </Text>
           <Text
             fontSize={["sm", "lg", "xl"]}
@@ -65,7 +80,13 @@ const EventDetails = (props) => {
             letterSpacing={3.0}
             style={{ "text-align": "left" }}
           >
-            <b>Team Size:</b> {props.team_size}
+            {props.team_size === "" ? (
+              ""
+            ) : (
+              <>
+                <b>Team Size:</b> {props.team_size}
+              </>
+            )}
           </Text>
           {/* <Text fontSize={["md", "xl", "2xl"]}
                 py={"4"}
@@ -77,7 +98,7 @@ const EventDetails = (props) => {
                   <b>Prize:</b> {props.prize}
         </Text> */}
           <Text
-           fontSize={["sm", "lg", "xl"]}
+            fontSize={["sm", "lg", "xl"]}
             py={"4"}
             pt={"6"}
             maxW={"800"}
@@ -85,7 +106,13 @@ const EventDetails = (props) => {
             letterSpacing={3.0}
             style={{ "text-align": "left" }}
           >
-            <b>Date & Time:</b> {`${props.dates} | ${props.time}`}
+            {props.dates || props.time === "" ? (
+              ""
+            ) : (
+              <>
+                <b>Date & Time:</b> {`${props.dates} | ${props.time}`}
+              </>
+            )}
           </Text>
           {/* <Text fontSize={["md", "xl", "2xl"]}
                 py={"4"}
@@ -99,9 +126,9 @@ const EventDetails = (props) => {
         </Box>
       </Center>
       <Box>
-      <br/>
-      <br/>
-      <hr/>
+        <br />
+        <br />
+        <hr />
         <Center>
           <Text
             fontSize={["md", "xl", "3xl"]}
@@ -117,22 +144,27 @@ const EventDetails = (props) => {
         </Center>
         <Center>
           <Link href={`${props.form}/viewform`} target={"_black"}>
-            <Button backgroundColor={"#080c2c"} color={"white"} width={"25rem"}>
+            <Button backgroundColor={"#080c2c"} color={"white"} width={"30vw"}>
               Fill out form
             </Button>
           </Link>
-        </Center><br />
+        </Center>
+        <br />
       </Box>
       <Center>
         <Box mb={"10"} width={"100%"} height={"100%"}>
           {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgZVRZLUTzaBUdIe4yzNUE_JF2sJ-gink1HZqsupQDaugD0A/viewform?embedded=true" width="1000" height="1200" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe> */}
-          <iframe
-            src={`${props.form}/viewform?embedded=true`}
-            width="100%"
-            height="2700"
-          >
-            Loading…
-          </iframe>
+          {props.show === "true" ? (
+            <iframe
+              src={`${props.form}/viewform?embedded=true`}
+              width="100%"
+              height="2700"
+            >
+              Loading…
+            </iframe>
+          ) : (
+            ""
+          )}
         </Box>
       </Center>
     </Box>

@@ -58,6 +58,7 @@ const Details = () => {
                 dates={event.dates}
                 time={event.time}
                 venue={event.venue}
+                show={event.show}
                 form={event.form}
               />
             );

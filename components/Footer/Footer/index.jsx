@@ -11,7 +11,7 @@ import FooterSectionSocialIcon from "./FooterSectionSocialIcon";
 import FooterSectionSocialLink from "./FooterSectionSocialLink";
 import NextLink from "../../NextLink";
 import genesisLogo from "../../../public/imgs/footerlogo.png";
-import ieeeLogo from "../../../public/imgs/logo.png";
+import ieeesbLogo from "../../../public/imgs/ieeesb.svg";
 import ieeecsLogo from "../../../public/imgs/ieeecs.svg";
 import ieeewieLogo from "../../../public/imgs/ieeewie.svg";
 
@@ -48,7 +48,7 @@ const Footer = () => (
             <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
               <HStack>
                 <NextImage src={genesisLogo} alt="Genesis Logo" />
-                <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
+                <NextImage src={ieeesbLogo} alt="IEEE SB MUJ Logo" />
                 <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
                 <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
               </HStack>
@@ -171,7 +171,7 @@ const Footer2 = () => (
             <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
               <HStack>
                 <NextImage src={genesisLogo} alt="Genesis Logo" layout=""/>
-                <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
+                <NextImage src={ieeesbLogo} alt="IEEE SB MUJ Logo" />
                 <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
                 <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
               </HStack>

@@ -18,20 +18,28 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 
 const Timeline = () => {
   return (
-    <Box pt={"2vh"}
-    css={{
-      backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
-      backgroundAttachment: "fixed",
-    }}>
+    <Box
+      pt={"2vh"}
+      css={{
+        backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="timeline__container">
         {events.map((item, index) => (
           <div className="item__container" key={index}>
             <div className="image__carbon">
               <Link href={`/events/${item.title}`}>
-              <Image alt={item.title} src={item.image} 
+                {item.title === "Tech Talk" ? (
+                  <Image filter={"blur(10px)"} src={item.image}></Image>
+                ) : (
+                  <Image src={item.image}></Image>
+                )}
+                {/* <Image alt={item.title} src={item.image} 
                 
               // width={"500px"} 
-              /></Link>
+              /> */}
+              </Link>
             </div>
             <div className="bar__content">
               <span
@@ -43,10 +51,23 @@ const Timeline = () => {
             </div>
             <div className="timeline__text__container">
               <h1 className="timeline__text">{item.title}</h1>
-              <p className="timeline__subtext">{item.s_desc}</p><br />
-              <Link href={`/events/${item.title}`}><Button backgroundColor={"#080c2c"} color={"white"} width={"13rem"}>Register</Button></Link>
-              <hr style={{margin: "1rem"}} />
-              <p><b>{item.dates} | {item.time}</b></p>
+              <p className="timeline__subtext">{item.s_desc}</p>
+              <br />
+              <Link href={`/events/${item.title}`}>
+                <Button
+                  backgroundColor={"#080c2c"}
+                  color={"white"}
+                  width={"13rem"}
+                >
+                  Register
+                </Button>
+              </Link>
+              <hr style={{ margin: "1rem" }} />
+              <p>
+                <b>
+                  {item.dates} | {item.time}
+                </b>
+              </p>
             </div>
           </div>
         ))}

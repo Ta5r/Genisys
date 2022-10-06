@@ -2,7 +2,7 @@
 const members = [
   {
     name: "Aarohi Manchanda",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"",
     github:"https://github.com/aarohi309",
@@ -13,7 +13,7 @@ const members = [
   },
   {
     name: "Mahi Jain",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"",
     github:"https://github.com/mahijain21",
@@ -24,7 +24,7 @@ const members = [
   },
   {
     name: "Mitesh Sharma",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"",
     github:"https://github.com/",
@@ -35,7 +35,7 @@ const members = [
   },
   {
     name: "Manya Sharma",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"",
     github:"",
@@ -46,7 +46,7 @@ const members = [
   },
   {
     name: "Aishwary Shree",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"test",
     github:"",
@@ -57,7 +57,7 @@ const members = [
   },
   {
     name: "Vaishnavi Parihar",
-    position: "Convener Committee",
+    position: "Convener Panel",
     team: "ECcc",
     behance:"",
     github:"",
@@ -68,7 +68,7 @@ const members = [
   },
   {
     name: "Vikramditya Hiran",
-    position: "Events",
+    position: "Events-EC",
     team: "EC",
     behance:"",
     github:"test",
@@ -79,7 +79,7 @@ const members = [
   },
   {
     name: "Ritvik Chawla",
-    position: "Events",
+    position: "Events-EC",
     team: "EC",
     behance:"",
     github:"test",
@@ -90,7 +90,7 @@ const members = [
   },
   {
     name: "Rishav Agarwal",
-    position: "Sponsorship",
+    position: "Sponsorship-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -101,7 +101,7 @@ const members = [
   },
   {
     name: "Utkarsh Rana",
-    position: "Curations",
+    position: "Curations-EC",
     team: "EC",
     behance:"",
     github:"https://github.com/utkarshranaa",
@@ -112,7 +112,7 @@ const members = [
   },
   {
     name: "Prayas Godara",
-    position: "Marketing",
+    position: "Marketing-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -123,7 +123,7 @@ const members = [
   },
   {
     name: "Tanishaa Sinha",
-    position: "Logistics",
+    position: "Logistics-EC",
     team: "EC",
     behance:"",
     github:"https://github.com/tansinha-27",
@@ -134,7 +134,7 @@ const members = [
   },
   {
     name: "Archie Sharma",
-    position: "Content",
+    position: "Content-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -145,7 +145,7 @@ const members = [
   },
   {
     name: "Hardik Agarwal",
-    position: "Finance",
+    position: "Finance-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -156,7 +156,7 @@ const members = [
   },
   {
     name: "Yash Panchigar",
-    position: "Hospitality",
+    position: "Hospitality-EC",
     team: "EC",
     behance:"",
     github:"https://github.com/Firestone99",
@@ -167,7 +167,7 @@ const members = [
   },
   {
     name: "Jasjappan Singh",
-    position: "Flying Squad",
+    position: "Flying Squad-EC",
     team: "EC",
     behance:"https://www.behance.net/jappanj",
     github:"",
@@ -178,7 +178,7 @@ const members = [
   },
   {
     name: "Sejal Kothari",
-    position: "Graphic Design",
+    position: "Graphic Design-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -189,7 +189,7 @@ const members = [
   },
   {
     name: "Suyash Patel",
-    position: "Media",
+    position: "Media-EC",
     team: "EC",
     behance:"",
     github:"",
@@ -200,7 +200,7 @@ const members = [
   },
   {
     name: "Jeevanshi Bansal",
-    position: "Crafts",
+    position: "Crafts-EC",
     team: "EC",
     behance:"",
     github:"https://www.instagram.com/jeevu_11/",

@@ -42,7 +42,7 @@ const events = [
     time: "12pm to 3pm",
     team_size: "2-3",
     prize: "Rs. 10,000",
-    form: "https://forms.gle/cCzmFh9w6pTwfsq69",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSf2PzX3-aFLVVnQNY_uJ1qLbFLqXu3XhuhVIqK5YB2wZXFjCQ",
     venue: "4 classrooms around 101 AB1",
   },
   {
@@ -66,6 +66,7 @@ const events = [
     image:
       "https://images.prismic.io/ieeemuj/f4197dc3-a124-4923-bc95-81789f218a1b_Blogverse.png?auto=compress,format",
     title: "Blogverse",
+    show: "true",
     desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation. Winners will be declared considering their performance in various domains.",
     s_desc: "A contest to write a blog on provided specific core tech domains in a limited time and team/pair which completes in the shortest time will be awarded. After provision of clues regarding the topic, team will be provided with time slots for research, typing and presentation.",
     dates: "8th October",
@@ -80,7 +81,7 @@ const events = [
     redirect: "66",
     image:
       "https://images.prismic.io/ieeemuj/c30706a6-cc77-46fd-808a-47e4e592a613_Network+with+ieee.png?auto=compress,format",
-    title: "Network With WIE ",
+    title: "Network With WIE",
     desc: "A fun filled interaction session, to break the ice with fellow female engineers. The event will span throughout the nights, with games and interaction session with seniors.",
     s_desc: "A fun filled interaction session, to break the ice with fellow female engineers.",
     dates: "8th October",
@@ -90,21 +91,23 @@ const events = [
     form: "https://docs.google.com/forms/d/e/1FAIpQLSedm1Jz4caoSs32Jag6xelTD9f_U2MOvWIhSYG3Fz6U3Kyo2Q",
     venue: "",
   },
-  {
-    keys:"7",
-    redirect: "77",
-    image:
-      "https://images.prismic.io/ieeemuj/919d1965-f305-43db-86ea-3e075cf4a869_Arduino.png?auto=compress,format",
-    title: "Dron-acharya",
-    desc: "Drone Building Workshop accompanied by drone flying.",
-    s_desc: "Drone Building Workshop accompanied by drone flying.",
-    dates: "9th October",
-    time: "12pm to 4pm",
-    team_size: "5-6",
-    prize: "",
-    form: "",
-    venue: "",
-  },
+
+  // {
+  //   keys:"7",
+  //   redirect: "77",
+  //   image:
+  //     "https://images.prismic.io/ieeemuj/919d1965-f305-43db-86ea-3e075cf4a869_Arduino.png?auto=compress,format",
+  //   title: "Dron-acharya",
+  //   desc: "Drone Building Workshop accompanied by drone flying.",
+  //   s_desc: "Drone Building Workshop accompanied by drone flying.",
+  //   dates: "9th October",
+  //   time: "12pm to 4pm",
+  //   team_size: "5-6",
+  //   prize: "",
+  //   form: "",
+  //   venue: "",
+  // },
+
   {
     keys:"8",
     redirect: "88",
@@ -126,6 +129,7 @@ const events = [
     image:
       "https://images.prismic.io/ieeemuj/888b8f3d-1411-4b88-88f3-06ff0a80867b_Tech+Summit.png?auto=compress,format",
     title: "Tech Summit",
+    show: "true",
     desc: "YouTubers, CEO and CTO of Web3.0(Blockchain, ML, Cybersecurity and Space exploration) based companies and scientists are gonna have a discussion of how is todays technology affect the future and talk about what the future holds in their respective domains.",
     s_desc: "YouTubers, CEO and CTO of Web3.0(Blockchain, ML, Cybersecurity and Space exploration) based companies and scientists are gonna have a discussion of how is todays technology affect the future and talk about what the future holds in their respective domains.",
     dates: "9th October",
