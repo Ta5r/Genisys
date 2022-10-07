@@ -39,10 +39,10 @@ const members = [
     team: "ECcc",
     behance:"",
     github:"",
-    linkedin:"",
+    linkedin:"https://www.linkedin.com/in/manya-sharma-9795141b8",
     instagram:"https://instagram.com/Manyasharma002",
     image:
-      "https://images.prismic.io/ieeemuj/ab95d5f1-b19c-467a-88fc-a102a7555020_09D2C24B-1BF7-4949-A2FC-0FFF00CDBB50+-+MANYA+SHARMA.png?auto=compress,format&rect=0,0,96,96&w=96&h=96",
+      "https://images.prismic.io/ieeemuj/a13e5bb3-fa17-4daf-a75f-4fae4c759d9d_manya_ieee.jpeg?auto=compress,format",
   },
   {
     name: "Aishwary Shree",
@@ -196,7 +196,7 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://images.prismic.io/ieeemuj/bf1ef727-14c4-4b4f-aa33-3522ee86a065_Suyash+Patel.jpg?auto=compress,format",
+      "https://images.prismic.io/ieeemuj/415469a2-28df-4e1c-836e-b311e3f7ba83_suyash_patel_ieee.jpeg?auto=compress,format",
   },
   {
     name: "Jeevanshi Bansal",
@@ -550,17 +550,17 @@ const members = [
     image:
       "https://images.prismic.io/ieeemuj/fb494448-c461-45ec-9f2e-24b382a941c0_Saloni+Agrawal_Head+of+Editorial+.png?auto=compress,format",
   },
-  {
-    name: "Shriyanshi Srivastava",
-    position: "Core Committee",
-    team: "CCsponsorship",
-    behance:"",
-    github:"",
-    linkedin:"",
-    instagram:"",
-    image:
-      "https://images.prismic.io/ieeemuj/ef3b773e-f6c7-4b50-b57a-0853e3d442b0_Shriyanshi+Srivastava_Head+of+Corporate+Affairs+.png?auto=compress,format",
-  },
+  // {
+  //   name: "Shriyanshi Srivastava",
+  //   position: "Core Committee",
+  //   team: "CCsponsorship",
+  //   behance:"",
+  //   github:"",
+  //   linkedin:"",
+  //   instagram:"",
+  //   image:
+  //     "https://images.prismic.io/ieeemuj/ef3b773e-f6c7-4b50-b57a-0853e3d442b0_Shriyanshi+Srivastava_Head+of+Corporate+Affairs+.png?auto=compress,format",
+  // },
   {
     name: "Aastha Gupta",
     position: "Core Committee",
@@ -603,7 +603,7 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+      "https://images.prismic.io/ieeemuj/7c77049d-2e6f-4310-b847-99a3ce387919_ridhi_ieee.jpg?auto=compress,format",
   },
   {
     name: "Anoushka Goyal",
@@ -638,17 +638,17 @@ const members = [
     image:
       "https://images.prismic.io/ieeemuj/9167f950-1b12-4714-b7e4-dff16824f3c4_Manya+Khater_Senior+Coordinator.png?auto=compress,format",
   },
-  {
-    name: "Kaushambika Chillar",
-    position: "Core Committee",
-    team: "CCcurations",
-    behance:"",
-    github:"",
-    linkedin:"",
-    instagram:"",
-    image:
-      "https://images.prismic.io/ieeemuj/0edf9f5d-dfd5-4c68-973e-ca1f9b19e354_Kaushambika+Chhillar_Senior+Coordinator.png?auto=compress,format",
-  },
+  // {
+  //   name: "Kaushambika Chillar",
+  //   position: "Core Committee",
+  //   team: "CCcurations",
+  //   behance:"",
+  //   github:"",
+  //   linkedin:"",
+  //   instagram:"",
+  //   image:
+  //     "https://images.prismic.io/ieeemuj/0edf9f5d-dfd5-4c68-973e-ca1f9b19e354_Kaushambika+Chhillar_Senior+Coordinator.png?auto=compress,format",
+  // },
   {
     name: "Yoshe Vijay",
     position: "Core Committee",
@@ -781,17 +781,17 @@ const members = [
     image:
       "https://images.prismic.io/ieeemuj/a77c300a-1a1c-480c-b438-c79c1fa031c7_Abhimanyu+Bhasin+_Senior+Coordinator.png?auto=compress,format",
   },
-  {
-    name: "Amisha Singh",
-    position: "Core Committee",
-    team: "CCmarketing",
-    behance:"",
-    github:"",
-    linkedin:"",
-    instagram:"",
-    image:
-      "https://images.prismic.io/ieeemuj/ca6a5fc5-5881-4e10-8cf1-1b9ea66e4195_Amisha+Singh_Joint+Head+of+Promotions.png?auto=compress,format",
-  },
+  // {
+  //   name: "Amisha Singh",
+  //   position: "Core Committee",
+  //   team: "CCmarketing",
+  //   behance:"",
+  //   github:"",
+  //   linkedin:"",
+  //   instagram:"",
+  //   image:
+  //     "https://images.prismic.io/ieeemuj/ca6a5fc5-5881-4e10-8cf1-1b9ea66e4195_Amisha+Singh_Joint+Head+of+Promotions.png?auto=compress,format",
+  // },
   {
     name: "Veda Rathore",
     position: "Core Committee",
@@ -878,7 +878,7 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+      "https://images.prismic.io/ieeemuj/ca099438-63c2-42b5-a1b3-37c387298331_prakhar_goel_ieee.JPG?auto=compress,format",
   },
   {
     name: "Khushi Ganatra",
@@ -1164,7 +1164,7 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+      "https://images.prismic.io/ieeemuj/67b68068-770c-424d-aecc-f650e3ce01b6_ankit_singh_ieee.jpg?auto=compress,format",
   },
   {
     name: "Vanisha Tyagi",
@@ -1398,7 +1398,7 @@ const members = [
       "https://images.prismic.io/ieeemuj/facf7f1b-ef9b-4ce3-8237-7e4e009568a3_Bhavya+Bhardwaj_Joint+head+of+media.jpg?auto=compress,format",
   },
   {
-    name: "Saksham Chaturvedi",
+    name: "Avanya Sagar",
     position: "Core Committee",
     team: "CCmedia",
     behance:"",
@@ -1406,10 +1406,10 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+      "https://images.prismic.io/ieeemuj/07a55261-4a73-403a-9292-19d35d187227_Avanya+Sagar_Joint+Head+Of+Media.png?auto=compress,format",
   },
   {
-    name: "Shrrya Singh",
+    name: "Sherya Singh",
     position: "Core Committee",
     team: "CCmedia",
     behance:"",
@@ -1417,7 +1417,7 @@ const members = [
     linkedin:"",
     instagram:"",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
+      "https://images.prismic.io/ieeemuj/5a85970a-9cb4-4a5c-baa1-7e2becb86d1d_shreya_ieee.jpeg?auto=compress,format",
   },
 ];
 
